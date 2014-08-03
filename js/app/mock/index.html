@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="mainIntlApp">
+<head>
+<title>International Flight Listing</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!-- Bootstrap -->
+<link href="css/core/app-main-bundle-core.css" rel="stylesheet">
+<link href="css/app-main-bundle-custom.css" rel="stylesheet">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="js/core/html5shiv.js"></script>
+      <script src="js/core/respond.min.js"></script>
+    <![endif]-->
+<script type="text/javascript">
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+var msViewportStyle = document.createElement("style")
+msViewportStyle.appendChild(
+document.createTextNode(
+"@-ms-viewport{width:auto!important}"
+)
+)
+document.getElementsByTagName("head")[0].appendChild(msViewportStyle)
+}
+</script>
+<script src="js/build/ui-dependencies.js"></script>
+<!-- /jQ UI dependencies -->
+</head>
+<body>
+<div ng-view></div>
+<script type="text/javascript" src="raw-main-bundle.js"></script>
+</body>
+</html>

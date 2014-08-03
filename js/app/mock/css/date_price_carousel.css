@@ -1,0 +1,85 @@
+.jcarousel-control-prev,.jcarousel-control-next,.jcarousel-control-prev.inactive,.jcarousel-control-next.inactive{ background:url(../images/flight_listing_sprite.png) no-repeat; font-size:0px; }
+
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!
+*/
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+
+.jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: left;
+}
+
+.jcarousel-wrapper{ position:relative; }
+.date_price{ width:87%; margin:0 auto; border:1px solid #cccccc; border-left:none; }
+.jcarousel li a{ background:#fff; border-left:1px solid #cccccc; padding:8px 0 4px; width:127px; text-align:center; height:64px; }
+.jcarousel li a.active{ border-bottom:4px solid #fdd000; }
+
+.jcarousel-control-prev{ background-position:-62px -124px; width:46px; height:46px; position:absolute; left:0px; top:10px;  }
+.jcarousel-control-next{ background-position:-122px -124px; width:46px; height:46px; position:absolute; right:0px; top:10px; }
+.jcarousel-control-prev.inactive{ background-position:-62px -174px; width:46px; height:46px; }
+.jcarousel-control-next.inactive{ background-position:-122px -174px; width:46px; height:46px;   }
+
+.date_info_txt{ font-size:11px; color:#2f2f2f; }
+.price_info_txt{ font-size:14px; color:#fff; background:#5a9344; display:inline-block; padding:2px 3px; line-height:12px; }
+
+.airine_name{ color:#2f2f2f; margin-bottom:6px; font-size:12px; line-height:12px; }
+.intl_logo{ margin-right:15px; }
+.intl_pricetxt{ font-size:12px; line-height:16px; color:#2f2f2f; }
+.intl_stoptxt{ font-size:11px; color:#a7a7a7; line-height:12px; }
+.flght_information{ width:110px; margin:0 auto; }
+
+
+/* desktop upto 1024px  [ Mark: *MD* ] */
+@media (min-width:992px) and (max-width:1199px) {
+.date_price{ width:84.1%; }
+}
+
+/* Portrait tablet to landscape and desktop [ Mark: *SM* ] */
+@media (min-width:768px) and (max-width:991px) {
+.date_price{ width:81.6%; }
+}
+
+/* Landscape phone to portrait tablet [ Mark: *XS* ] */
+@media (min-width:600px) and (max-width:767px) {
+.date_price{ width:78.21111%; }
+	
+}
+
+/* Landscape phone to portrait tablet [ Mark: *XS* ] */
+@media (min-width:450px) and (max-width:599px) {
+.date_price{ width:79.1%; }
+}
+
+
+@media (min-width:320px) and (max-width:449px) {
+.date_price{ width:62.1%; }
+.price_info_txt{ font-size:12px; padding:2px 3px; line-height:12px; }
+}
+

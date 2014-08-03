@@ -1,0 +1,15 @@
+/*---- Sprite sharing classes ----*/
+.close_overlay{ background:url(../images/flight_listing_sprite.png) no-repeat; font-size:0px; }
+
+
+/*------ Interstitial General Cases ------ */
+.overlay_cases_wrapper{ background:#000; padding:10px;  }
+.overlay_cases{ background:#e5e5e5; padding-top:12px; padding-bottom:12px; border-radius:3px; }
+.overlay_popup_white{ background:#fff; }
+.overlay_heading{ font-size:16px; text-transform:uppercase; text-align:center; margin-bottom:10px; }
+.overlay_heading_normalCase{ font-size:16px; text-transform:none; text-align:center; margin-bottom:10px; }
+.overlay_cases .close_overlay,.modal-header .close_overlay{ background-position:-48px -35px; width:16px; height:15px; margin-top:3px; font-size:20px; }
+.overlay_subhead{ font-size:14px; line-height:14px; }
+.overlay_cart_messages{ font-size:14px; }
+.verification_link_msg{ font-size:11px; }
+/*------ /Interstitial General Cases ------ */

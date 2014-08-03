@@ -1,0 +1,689 @@
+<!-- Modify Search -->
+    <!-- styles for modify search -->
+<link rel="stylesheet" type="text/css" href="css/modify_search.css" />
+<!-- /styles for modify search -->
+<!-- modify search -->
+<div class="mfs_rel_wrapper make_relative append_bottom16">
+  <!-- flexi date handler -->
+  <a class="flexi_dateHandler btn btn-md btn-secondary hidden-xs text-center" href="javascript:void(0);">
+  	<span class="glyphicon glyphicon-calendar append_bottom8"></span>
+    <span class="make_blockElm">FLEXI <br/> DATES</span>
+  </a>
+  <!-- /flexi date handler -->
+
+  <div class="modify_search noneAll">
+  
+	<!-- top part -->
+		<div class="modify_top col-md-12 col-sm-12 hidden-xs visible-stb">
+			<div class="row">
+				<!-- city and country -->
+				<div class="col-md-3 col-sm-3 col-xs-3 has_fade has_right_border">
+					<p class="modify_city_name">
+						<span class="rund_trip_txt modify_captions make_blockElm append_bottom8">MULTICITY</span>
+                        <span class="make_blockElm">Banglore to Mumbai</span>
+                        <span class="via_multicity">via Goa, Chennai</span>
+					</p>
+				</div>
+				<!-- /city and country -->
+				<!-- check-in -->
+				<div class="col-md-2 col-sm-2 col-xs-2 has_fade">
+					<p class="modify_captions">Departure</p>
+					<p class="check-dates">
+                        <span class="glyphicon glyphicon-calendar hidden-sm  hidden-stb"></span>
+                        <span class="date RobotoLight">13</span>
+                        <span class="month_day RobotLight">
+                            <span class="make_blockElm">OCT' 13</span>
+                            <span class="make_blockElm">FRI</span>
+                         </span>
+                         
+						<span class="arrow_greater">&gt;</span>
+					</p>
+				</div>
+				<!-- /check-in -->
+				<!-- /check-out -->
+				<div class="col-md-2 col-sm-2 col-xs-2 has_fade has_right_border specfic">
+					<p class="modify_captions">Arrival</p>
+					<p class="check-dates">
+                        <span class="glyphicon glyphicon-calendar hidden-sm hidden-stb"></span>
+                        <span class="date RobotoLight">13</span>
+                        <span class="month_day RobotLight">
+                            <span class="make_blockElm">OCT' 13</span>
+                            <span class="make_blockElm">FRI</span>
+                         </span>
+					</p>
+				</div>
+				<!-- /check-out -->
+                
+                <!-- Adult,Child and Infants [ Hidden in Small Tablets ] -->
+                <div class="hidden-stb">
+                    <!-- nights -->
+                    <div class="col-md-1 col-sm-1 text-center has_fade">
+                        <p class="modify_captions">Adult</p>
+                        <p class="check-dates">
+                            <span class="date">02</span>
+                        </p>                    
+                    </div>
+                    <!-- /nights -->
+                    <!-- rooms -->
+                    <div class="col-md-1 col-sm-1 col-xs-2 text-center has_fade">
+                        <p class="modify_captions">Child</p>
+                        <p class="check-dates">
+                            <span class="date">01</span>
+                        </p>                    
+                    </div>
+                    <!-- /rooms -->
+                    <!-- people -->
+                    <div class="col-md-1 col-sm-1 col-xs-2 text-center has_fade">
+                        <p class="modify_captions">Infant</p>
+                        <p class="check-dates">
+                            <span class="date">02</span>
+                        </p>                    
+                    </div>
+                    <!-- /people -->
+                  </div>
+                <!-- /Adult,Child and Infants [ Hidden in Small Tablets ] -->
+                
+                <!-- Showing Total Passangers [ Visible in Small Tablets Only ] Instead -->
+                    <div class="col-xs-2 hidden-lg hidden-md showingTotalPassanger has_fade">
+                        <p class="modify_captions">Travellers</p>
+                        <p class="check-dates">
+                            <span class="date">05</span>
+                        </p>
+                    </div>
+                <!-- /Showing Total Passangers [ Visible in Small Tablets Only ] Instead -->
+                
+				<div class="col-md-2 col-sm-2 modify">
+					<a  class="pull-right modify_search_toggle">+ Modify <span class="hidden-stb hidden-sm">Search</span></a>
+				</div>
+			 </div>
+	  </div>
+	<!-- /top part -->
+	
+	<!-- widget part -->
+	<div class="modify_widget">
+    
+			    <!-- visible to [ Mobile ] only -->
+                <div class="col-xs-12 append_bottom10 hidden-lg hidden-md hidden-sm">
+                    <p class="modify_search_headmobile">Modify Search</p>
+                </div>
+				<!-- /visible to [ Mobile ] only -->
+                            
+			  <!-- one way & round trip -->
+			  <div class="col-md-12 col-sm-12 col-xs-12 clearfix append_bottom16">
+                        <div class="col-md-2 col-sm-3 col-xs-4">
+                            <a  class="row segmented_btn first">
+                            	ONE WAY
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-sm-3 col-xs-4">
+                            <a  class="row segmented_btn">
+                                ROUND TRIP
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-sm-3 col-xs-4">
+                            <a  class="row segmented_btn active last">
+                                MULTI CITY
+                            </a>
+                        </div>                        
+               </div>
+                <!-- /one way & round trip -->
+                
+
+
+
+  				<!-- Round Trip case -->
+				<div class="col-md-12 col-sm-12 col-xs-12 clearfix need_bottom_space">
+                		<div class="multicity_wrapper clearfix">
+              				<!-- from city dropdown -->
+							<div class="modify_ddn_fields col-sm-3 col-md-4	col-xs-5">
+                            	<div class="row">
+                                	
+                                    <!-- Hide Text field on Mobile -->
+                                    <div class="hidden-xs hidden-stb">
+                                        <input type="text" class="input-md form-control" placeholder="Select City"> 
+                                    
+                                        <!-- visible to [ Mobile ] only -->
+                                        <a class="geo_location_icon pull-right hidden-lg hidden-md hidden-sm hidden-stb" >
+                                            <span></span>
+                                        </a>
+                                        <!-- /visible to [ Mobile ] only -->
+									</div>
+                                    <!-- /Hide Text field on Mobile -->
+                                     
+                                    <!-- Visible Plain Text Bold in  [ Mobile ] only -->
+                                    <div class="hidden-lg hidden-md hidden-sm trigger_search_mobile">
+                                    	<h3 class="sectorName_mobile RobotoLight">DEL</h3>
+                                        <p class="modify_cityname_mobile">New Delhi</p>
+                                    </div>
+                                    <!-- /Visible Plain Text Bold in  [ Mobile ] only -->
+                                    
+                                 </div>
+						   </div>
+                           <!-- /from city dropdown -->
+                           
+                           <!-- arrow seprator -->
+                           <div class="modify_ddn_fields col-sm-1 col-xs-2 text-center">
+                           		<span class="sectors_seprator"></span>
+                           </div>
+                           <!-- /arrow seprator -->
+                           
+              				<!-- from city dropdown -->
+							<div class="modify_ddn_fields col-sm-3 col-md-4 col-xs-5">
+                            	<div class="row">
+									<!-- Hide Text field on Mobile -->
+                                    <div class="hidden-xs hidden-stb">
+                                        <input type="text" class="input-md form-control" value="Tiruchirapalli (TRZ)">
+                                    
+                                        <!-- visible to [ Mobile ] only -->
+                                        <a class="geo_location_icon pull-right hidden-lg hidden-md hidden-sm hidden-stb" >
+                                            <span></span>
+                                        </a>
+                                        <!-- /visible to [ Mobile ] only -->
+									</div>
+                                    <!-- /Hide Text field on Mobile -->
+                                     
+                                    <!-- Visible Plain Text Bold in  [ Mobile ] only -->
+                                    <div class="hidden-lg hidden-md hidden-sm text-right">
+                                    	<h3 class="sectorName_mobile RobotoLight">BOM</h3>
+                                        <p class="modify_cityname_mobile">Mumbai</p>
+                                    </div>
+                                    <!-- /Visible Plain Text Bold in  [ Mobile ] only -->
+
+                                 </div>
+						   </div>
+                           <!-- /from city dropdown -->
+                           
+                           <!-- border seprator -->
+                           <div class="clearfix hidden-lg hidden-md hidden-sm border_seprate_mobile">
+                           		
+                           </div>
+                           <!-- /border seprator -->
+                           
+                           <!-- include nearby airports -->
+                           <div class="filter_subdivisions filter_subdivisions_setNone hidden-lg hidden-md hidden-sm">
+                            <div class="checkbox show_refundable_cbrwapper col-xs-12 clearfix">
+                                <span class="checkbox_state pull-left"></span>
+                                <input type="checkbox" class="pull-left"> 
+                            
+                                <span class="pull-left airline_info">
+                                    <span class="make_blockElm airline_name show_refundable_txt light_gray">Include Nearby Airports.</span>
+                                </span>
+                            </div>
+                            </div> 
+                           <!-- /include nearby airports -->
+                           
+                          </div>
+                     </div>
+                <!-- /Round Trip case -->
+                
+  				<!-- Multicity fields -->
+				<div class="col-md-12 col-sm-12 col-xs-12 clearfix need_bottom_space hide">
+                		<div class="multicity_wrapper clearfix">
+              				<!-- from city dropdown -->
+							<div class="modify_ddn_fields col-sm-3 col-md-4	col-xs-5">
+                            	<div class="row">
+                                	
+                                    <!-- Hide Text field on Mobile -->
+                                    <div class="hidden-xs hidden-stb">
+                                        <input type="text" class="input-md form-control" placeholder="Select City"> 
+                                    
+                                        <!-- visible to [ Mobile ] only -->
+                                        <a class="geo_location_icon pull-right hidden-lg hidden-md hidden-sm hidden-stb" >
+                                            <span></span>
+                                        </a>
+                                        <!-- /visible to [ Mobile ] only -->
+									</div>
+                                    <!-- /Hide Text field on Mobile -->
+                                     
+                                    <!-- Visible Plain Text Bold in  [ Mobile ] only -->
+                                    <div class="hidden-lg hidden-md hidden-sm trigger_search_mobile">
+                                    	<h3 class="sectorName_mobile RobotoLight">DEL</h3>
+                                        <p class="modify_cityname_mobile">New Delhi</p>
+                                    </div>
+                                    <!-- /Visible Plain Text Bold in  [ Mobile ] only -->
+                                    
+                                 </div>
+						   </div>
+                           <!-- /from city dropdown -->
+                           
+                           <!-- arrow seprator -->
+                           <div class="modify_ddn_fields col-sm-1 col-xs-2 text-center">
+                           		<span class="sectors_seprator"></span>
+                           </div>
+                           <!-- /arrow seprator -->
+                           
+              				<!-- from city dropdown -->
+							<div class="modify_ddn_fields col-sm-3 col-md-4 col-xs-5">
+                            	<div class="row">
+									<!-- Hide Text field on Mobile -->
+                                    <div class="hidden-xs hidden-stb">
+                                        <input type="text" class="input-md form-control" value="Tiruchirapalli (TRZ)">
+                                    
+                                        <!-- visible to [ Mobile ] only -->
+                                        <a class="geo_location_icon pull-right hidden-lg hidden-md hidden-sm hidden-stb" >
+                                            <span></span>
+                                        </a>
+                                        <!-- /visible to [ Mobile ] only -->
+									</div>
+                                    <!-- /Hide Text field on Mobile -->
+                                     
+                                    <!-- Visible Plain Text Bold in  [ Mobile ] only -->
+                                    <div class="hidden-lg hidden-md hidden-sm text-right">
+                                    	<h3 class="sectorName_mobile RobotoLight">BOM</h3>
+                                        <p class="modify_cityname_mobile">Mumbai</p>
+                                    </div>
+                                    <!-- /Visible Plain Text Bold in  [ Mobile ] only -->
+
+                                 </div>
+						   </div>
+                           <!-- /from city dropdown -->
+                           
+                           <!-- border seprator -->
+                           <div class="clearfix hidden-lg hidden-md hidden-sm border_seprate_mobile">
+                           		
+                           </div>
+                           <!-- /border seprator -->
+                           
+                           <!-- departure details -->
+                            <a class="check-dates dep_arr_segment col-md-2 col-sm-3 col-xs-8" >
+                                <span class="modify_captions make_blockElm">Departure</span>
+                                <span class="glyphicon glyphicon-calendar"></span>
+                                <span class="date RobotoLight">13</span>
+                                <span class="month_day RobotLight">
+                                    <span class="make_blockElm">OCT' 13</span>
+                                    <span class="make_blockElm">FRI</span>
+                                 </span>
+                            </a>                           
+                           <!-- /departure details -->
+                           
+                           <!-- remove record -->
+                           <a class="col-md-1 col-sm-2 col-xs-4 remove_multicity_row pull-right text-center" >
+                           		<span class="remove_row_btn make_blockElm"></span>
+                                <span class="remove_buttonText make_blockElm">Remove</span>
+                           </a>
+                           <!-- /remove record -->
+                          </div>
+                     </div>
+                <!-- /Multicity fields -->
+                                
+                                
+                                
+                <!-- Multicity fields -->
+				<div class="col-md-12 col-sm-12 col-xs-12 clearfix need_bottom_space">
+                		<div class="multicity_wrapper clearfix">
+              				<!-- from city dropdown -->
+							<div class="modify_ddn_fields col-sm-3 col-md-4	col-xs-5">
+                            	<div class="row">
+                                	
+                                    <!-- Hide Text field on Mobile -->
+                                    <div class="hidden-xs hidden-stb">
+                                        <input type="text" class="input-md form-control" value="Tiruchirapalli (TRZ)"> 
+                                    
+                                        <!-- visible to [ Mobile ] only -->
+                                        <a class="geo_location_icon pull-right hidden-lg hidden-md hidden-sm hidden-stb" >
+                                            <span></span>
+                                        </a>
+                                        <!-- /visible to [ Mobile ] only -->
+									</div>
+                                    <!-- /Hide Text field on Mobile -->
+                                     
+                                    <!-- Visible Plain Text Bold in  [ Mobile ] only -->
+                                    <div class="hidden-lg hidden-md hidden-sm">
+                                    	<h3 class="sectorName_mobile RobotoLight">BOM</h3>
+                                        <p class="modify_cityname_mobile">Mumbai</p>
+                                    </div>
+                                    <!-- /Visible Plain Text Bold in  [ Mobile ] only -->
+                                    
+                                 </div>
+						   </div>
+                           <!-- /from city dropdown -->
+                           
+                           <!-- arrow seprator -->
+                           <div class="modify_ddn_fields col-sm-1 col-xs-2 text-center">
+                           		<span class="sectors_seprator"></span>
+                           </div>
+                           <!-- /arrow seprator -->
+                           
+              				<!-- from city dropdown -->
+							<div class="modify_ddn_fields col-sm-3 col-md-4 col-xs-5">
+                            	<div class="row">
+									<!-- Hide Text field on Mobile -->
+                                    <div class="hidden-xs hidden-stb">
+                                        <input type="text" class="input-md form-control" value="Tiruchirapalli (TRZ)"> 
+                                    
+                                        <!-- visible to [ Mobile ] only -->
+                                        <a class="geo_location_icon pull-right hidden-lg hidden-md hidden-sm hidden-stb" >
+                                            <span></span>
+                                        </a>
+                                        <!-- /visible to [ Mobile ] only -->
+									</div>
+                                    <!-- /Hide Text field on Mobile -->
+                                     
+                                    <!-- Visible Plain Text Bold in  [ Mobile ] only -->
+                                    <div class="hidden-lg hidden-md hidden-sm text-right">
+                                    	<h3 class="sectorName_mobile RobotoLight">HYD</h3>
+                                        <p class="modify_cityname_mobile">Hyderabad</p>
+                                    </div>
+                                    <!-- /Visible Plain Text Bold in  [ Mobile ] only -->
+
+                                 </div>
+						   </div>
+                           <!-- /from city dropdown -->
+                           
+                           <!-- border seprator -->
+                           <div class="clearfix hidden-lg hidden-md hidden-sm border_seprate_mobile">
+                           		
+                           </div>
+                           <!-- /border seprator -->
+                           
+                           <!-- departure details -->
+                            <a class="check-dates dep_arr_segment col-md-2 col-sm-3 col-xs-8" >
+                                <span class="modify_captions make_blockElm">Departure</span>
+                                <span class="glyphicon glyphicon-calendar"></span>
+                                <span class="date RobotoLight">13</span>
+                                <span class="month_day RobotLight">
+                                    <span class="make_blockElm">OCT' 13</span>
+                                    <span class="make_blockElm">FRI</span>
+                                 </span>
+                            </a>                           
+                           <!-- /departure details -->
+                           
+                           <!-- remove record -->
+                           <a class="col-md-1 col-sm-2 col-xs-4 remove_multicity_row pull-right text-center" >
+                           		<span class="remove_row_btn make_blockElm"></span>
+                                <span class="remove_buttonText make_blockElm">Remove</span>
+                           </a>
+                           <!-- /remove record -->
+                          </div>
+                     </div>
+                <!-- /Multicity fields -->
+                
+                
+  				<!-- Multicity fields -->
+				<div class="col-md-12 col-sm-12 col-xs-12 clearfix need_bottom_space add_bottom_border">
+                		<div class="multicity_wrapper clearfix">
+              				<!-- from city dropdown -->
+							<div class="modify_ddn_fields col-sm-3 col-md-4	col-xs-5">
+                            	<div class="row">
+                                	
+                                    <!-- Hide Text field on Mobile -->
+                                    <div class="hidden-xs hidden-stb">
+                                        <input type="text" class="input-md form-control" value="Tiruchirapalli (TRZ)"> 
+                                    
+                                        <!-- visible to [ Mobile ] only -->
+                                        <a class="geo_location_icon pull-right hidden-lg hidden-md hidden-sm hidden-stb" >
+                                            <span></span>
+                                        </a>
+                                        <!-- /visible to [ Mobile ] only -->
+									</div>
+                                    <!-- /Hide Text field on Mobile -->
+                                     
+                                    <!-- Visible Plain Text Bold in  [ Mobile ] only -->
+                                    <div class="hidden-lg hidden-md hidden-sm">
+                                    	<h3 class="sectorName_mobile RobotoLight">---</h3>
+                                        <p class="modify_cityname_mobile">Select City</p>
+                                    </div>
+                                    <!-- /Visible Plain Text Bold in  [ Mobile ] only -->
+                                    
+                                 </div>
+						   </div>
+                           <!-- /from city dropdown -->
+                           
+                           <!-- arrow seprator -->
+                           <div class="modify_ddn_fields col-sm-1 col-xs-2 text-center">
+                           		<span class="sectors_seprator"></span>
+                           </div>
+                           <!-- /arrow seprator -->
+                           
+              				<!-- from city dropdown -->
+							<div class="modify_ddn_fields col-sm-3 col-md-4 col-xs-5">
+                            	<div class="row">
+									<!-- Hide Text field on Mobile -->
+                                    <div class="hidden-xs hidden-stb">
+                                        <input type="text" class="input-md form-control" value="Tiruchirapalli (TRZ)"> 
+                                    
+                                        <!-- visible to [ Mobile ] only -->
+                                        <a class="geo_location_icon pull-right hidden-lg hidden-md hidden-sm hidden-stb" >
+                                            <span></span>
+                                        </a>
+                                        <!-- /visible to [ Mobile ] only -->
+									</div>
+                                    <!-- /Hide Text field on Mobile -->
+                                     
+                                    <!-- Visible Plain Text Bold in  [ Mobile ] only -->
+                                    <div class="hidden-lg hidden-md hidden-sm text-right">
+                                    	<h3 class="sectorName_mobile RobotoLight">---</h3>
+                                        <p class="modify_cityname_mobile">Select City</p>
+                                    </div>
+                                    <!-- /Visible Plain Text Bold in  [ Mobile ] only -->
+
+                                 </div>
+						   </div>
+                           <!-- /from city dropdown -->
+                           
+                           <!-- border seprator -->
+                           <div class="clearfix hidden-lg hidden-md hidden-sm border_seprate_mobile">
+                           		
+                           </div>
+                           <!-- /border seprator -->
+                           
+                           <!-- departure details -->
+                            <a class="check-dates dep_arr_segment col-md-2 col-sm-3 col-xs-8" >
+                                <span class="modify_captions make_blockElm">Departure</span>
+                                <span class="glyphicon glyphicon-calendar"></span>
+                                <span class="date RobotoLight">13</span>
+                                <span class="month_day RobotLight">
+                                    <span class="make_blockElm">OCT' 13</span>
+                                    <span class="make_blockElm">FRI</span>
+                                 </span>
+                            </a>                           
+                           <!-- /departure details -->
+                           
+                           <!-- remove record -->
+                           <a class="col-md-1 col-sm-2 col-xs-4 remove_multicity_row pull-right text-center" >
+                           		<span class="remove_row_btn make_blockElm"></span>
+                                <span class="remove_buttonText make_blockElm">Remove</span>
+                           </a>
+                           <!-- /remove record -->
+                          </div>
+                     </div>
+                <!-- /Multicity fields -->                
+                
+                <!-- Add another city -->
+				<div class="clearfix add_top_border col-sm-12 col-xs-12 need_top_space append_bottom16">
+					<div class="row">
+							<div class="col-md-4 col-sm-4 col-xs-12">
+								<div class="segmented_controls add_city_buttonbar form-control">
+									<a class="form-control" >Add City</a>
+									<a >+</a>
+								</div>
+							</div>
+					 </div>
+				 </div>                
+                <!-- /Add another city -->
+
+			  <!-- one way & round trip fields -->
+			  <div class="col-md-12 col-sm-12 col-xs-12 hidden-xs clearfix append_bottom16">
+              				<!-- from city dropdown -->
+							<div class="modify_ddn_fields col-sm-5 col-md-4">
+                            	<div class="row">
+									<input type="text" value="Tiruchirapalli (TRZ)" class="input-md form-control" /> 
+                                
+                                    <!-- visible to [ Mobile ] only -->
+                                    <a  class="geo_location_icon pull-right hidden-lg hidden-md hidden-sm hidden-stb">
+                                        <span></span>
+                                    </a>
+                                    <!-- /visible to [ Mobile ] only -->
+                                 </div>
+						   </div>
+                           <!-- /from city dropdown -->
+                           
+                           <!-- arrow seprator -->
+                           <div class="modify_ddn_fields col-sm-1 text-center">
+                           		<span class="sectors_seprator hidden-xs"></span>
+                           </div>
+                           <!-- /arrow seprator -->
+                           
+              				<!-- from city dropdown -->
+							<div class="modify_ddn_fields col-sm-5 col-md-4">
+                            	<div class="row">
+									<input type="text" value="Tiruchirapalli (TRZ)" class="input-md form-control" /> 
+                                
+                                    <!-- visible to [ Mobile ] only -->
+                                    <a  class="geo_location_icon pull-right hidden-lg hidden-md hidden-sm hidden-stb">
+                                        <span></span>
+                                    </a>
+                                    <!-- /visible to [ Mobile ] only -->
+
+                                    <!-- city dropdown list -->
+                                    <ul class="city_dropdown_list">
+                                        <li><a >New Delhi</a></li>
+                                        <li><a >New Delhi</a></li>
+                                        <li><a >New Delhi</a></li>
+                                        <li><a >New Delhi</a></li>
+                                        <li><a >New Delhi</a></li>
+                                    </ul>
+                                    <!-- /city dropdown list -->
+                                    
+                                 </div>
+						   </div>
+                           <!-- /from city dropdown -->
+                     </div>
+					 <!-- /one way & round trip fields -->                           
+
+
+                           
+                     <!-- date section -->
+					<div class="col-md-12 col-sm-12 col-xs-12 clearfix">   
+                       <div class="make_field segmented_btn segmented_btn_auto first last col-md-4 col-sm-6 col-xs-12 clearfix append_bottom16">
+                                <a  class="check-dates dep_arr_segment col-md-6 col-sm-6 col-xs-6">
+                                	<span class="modify_captions make_blockElm">Departure</span>
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                    <span class="date RobotoLight">13</span>
+                                    <span class="month_day RobotLight">
+                                    	<span class="make_blockElm">OCT' 13</span>
+                                    	<span class="make_blockElm">FRI</span>
+                                     </span>
+                                    
+                                </a>
+                                <a  class="check-dates dep_arr_segment last roundtrip_info col-md-6 col-sm-6 col-xs-6">
+                                		<span class="make_blockElm append_bottom4">Book Round Trip for</span>
+                                    	<span class="make_blockElm great_saving">Great savings</span>
+                                </a>
+                        </div>
+                     </div>
+                     <!-- /date section -->
+                     
+			                 
+                             
+				<!-- Passangers and Class -->
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clearfix passanger_row">
+                	<div class="col-lg-12 col-sm-12 row append_bottom16">
+						<!-- adults -->
+						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 passangers_mobile">
+                        	<div class="row">
+								<p class="modify_captions">adults: 12+</p>
+								<!-- field -->
+								<div class="segmented_controls make_field form-control">
+									<a >&ndash;</a>
+									<span class="form-control">2</span>
+									<a >+</a>
+								</div>
+								<!-- /field -->
+                             </div>
+						</div>
+						<!-- /adults -->
+						
+						<!-- children -->
+						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+							<div class="row">
+								<p class="modify_captions">children: 2-11</p>
+								<!-- field -->
+								<div class="segmented_controls make_field form-control">
+									<a >&ndash;</a>
+									<span class="form-control">4</span>
+									<a >+</a>
+								</div>
+								<!-- /field -->
+							</div>
+						</div>
+						<!-- /children -->
+                        
+						<!-- infant -->
+						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+	                        <div class="row">
+								<p class="modify_captions">infants: 0-2</p>
+								<!-- field -->
+								<div class="segmented_controls make_field form-control">
+									<a >&ndash;</a>
+									<span class="form-control">4</span>
+									<a >+</a>
+								</div>
+								<!-- /field -->
+                             </div>
+						</div>
+						<!-- /infant -->   
+                      </div>
+                    
+                    <div class="col-lg-12 col-sm-9 col-xs-12 clearfix">
+                    	<div class="row append_bottom16">
+                        <!-- economy class buttons -->
+                        <div class="col-lg-7 col-sm-12 col-xs-12">
+                        	<div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                	<div class="row">
+                                        <a  class="segmented_btn first">
+                                            ECONOMY
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                	<div class="row">
+                                        <a  class="segmented_btn premium_economy">
+                                            Premium Economy
+                                        </a>
+                                    </div>
+                                </div> 
+                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                	<div class="row">
+                                        <a  class="segmented_btn">
+                                            Business
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                	<div class="row">
+                                        <a  class="segmented_btn active last">
+                                            First
+                                        </a>
+                                    </div>
+                                </div>                                                                                               
+                            </div>
+                        </div>
+                        <!-- /economy class buttons -->
+                        </div>
+                   </div>     
+                        
+					 </div>                   
+                     <!-- /Passangers and Class -->
+                     
+                     
+                     <!-- button row -->
+                     <div class="modify_button_row clearfix">
+                     	<div class="col-md-2 col-xs-6">
+	                     	<a  class="btn btn-lg btn-block btn-secondary">Cancel</a>
+                        </div>
+                        <div class="col-md-2 col-xs-6">
+	                        <a  class="btn btn-lg btn-block btn-primary-red">Search</a>
+                        </div>
+                     </div>
+                     <!-- /button row -->
+				</div>
+	<!-- /widget part -->
+  </div>
+  </div>
+  <!-- /modify search --> 
+  
+  <!-- Modify search black BG Cover -->
+  <div id="mfs_bgcover"></div>
+  <!-- /Modify search black BG Cover -->    <!-- /Modify Search --> 

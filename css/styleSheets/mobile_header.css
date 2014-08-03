@@ -1,0 +1,20 @@
+/*--- Header for Mobile ---*/
+.modify_state{ background:url(../images/flight_listing_sprite.png) no-repeat; font-size:0px; }
+
+#header_mobile{ background-color:#054482; height:44px; -moz-box-shadow:0 -3px 4px 0 rgba(0,0,0,0.4) inset; -webkit-box-shadow:0 -3px 4px 0 rgba(0,0,0,0.4) inset; -o-box-shadow:0 -3px 4px 0 rgba(0,0,0,0.4) inset; box-shadow:0 -3px 4px 0 rgba(0,0,0,0.4) inset; }
+.header_hamburger{ padding:14px 10px; border-right:solid 1px #03356f; width:10%; height:44px; margin-top:0; }
+.header_hamburger .icon-bar{ background-color:#fff; height:1px; }
+.header_hamburger .icon-bar+.icon-bar{ margin-top:4px; }
+.sectors_info{ padding:7px 10px; position:relative; height:44px; color:#fff; border-left:solid 1px #095792; border-right:solid 1px #03356f; width:80%; }
+.sectors_info:hover,.sectors_info:active{ color:#fff; }
+.sectors_info.active, .sectors_info:active, .sectors_info:focus,
+.sectors_info.active .time_details, .sectors_info:active .time_details, .sectors_info:focus .time_details
+{ color:#4271a0; }
+.sectors_info.active:hover{ color:#4271a0; }
+.sectors_info .time_details{ color:#fff; font-size:11px; }
+.header_filter_handler{ padding:12px 10px; width:10%; height:44px; font-size:15px; color:#fff; border-left:solid 1px #095792; }
+.header_filter_handler:hover,.header_filter_handler:focus,.header_filter_handler:active{ color:#fff; }
+.header_filter_handler .glyphicon-filter{ font-size:18px; }
+.sectors_info .modify_state{ background-position:-38px -213px; width:10px; height:6px; position:absolute; top:20px; right:10px; }
+.sector_seprator_mobile{ margin:0 5px; display:inline-block; }
+.sectors_info.active .modify_state{ background-position:-38px -205px; width:10px; height:6px; }

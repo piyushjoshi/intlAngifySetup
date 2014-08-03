@@ -1,0 +1,33 @@
+.sorting_button_row .up_arrow, .sorting_button_row .down_arrow,.arrow_ddn_pointer{ background:url(../images/flight_listing_sprite.png) no-repeat; font-size:0px; }
+
+/*--- List view and Map View buttons --- */
+.list_view_btn .icon-bar, .map_view_btn .glyphicon-map-marker{ color:#828282; font-size:13px; }
+.list_view_btn.active .icon-bar{ background-color:#cb3904; }
+.list_view_btn.active .icon-bar, .map_view_btn.active .glyphicon-map-marker{ color:#cb3904; }
+
+
+/*----- Sortings -----*/
+.sortby_text{ font-size:10px; padding-right:10px; color:#878787; }
+
+.sorting_button_row .up_arrow{ background-position:-143px -403px; width:9px; height:8px; display:inline-block; vertical-align:1px; margin-left:3px; }
+.sorting_button_row .down_arrow{ background-position:-26px -41px; width:11px; height:6px; display:inline-block; vertical-align:1px; margin-left:3px; }
+
+.arrow_ddn_pointer{ background-position:-25px -41px; width:12px; height:6px; margin:6px; }
+.sorting_button_row .segmented_btn{ box-shadow:none; padding-left:10px; }
+
+
+/*-- sorting options list --*/
+.sorting_options_list{ background:#fff; border:solid 1px #ccc; border-top:solid 1px #ececec; margin-top:-2px; left:0; top:32px; position:absolute; z-index:2; border-top:solid 4px #fdd000; border-radius:0 0 2px 2px; display:none; }
+.sorting_options_list a{ padding:7px 12px; color:#2f2f2f; border-bottom:solid 1px #ececec; display:block; text-align:left; }
+.sorting_options_list > li:last-child a{ border-bottom:0; }
+.departure_sorting_ddn{ width:300px; }
+.price_sorting_ddn{ width:100%; }
+/*-- /sorting options list --*/
+
+
+/* Landscape phone to portrait tablet [ Mark: *XS* ] */
+@media (max-width:767px) { }
+
+@media (min-width:590px) and (max-width:767px) {
+   .departure_informtn,.duration_informtn,.arrival_informtn,.price_informtn{ width:25%; }
+}

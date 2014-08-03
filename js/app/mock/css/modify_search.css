@@ -1,0 +1,165 @@
+/*----- Modify Search -----*/
+.arrow_greater,.geo_location_icon span,.sectors_seprator,.remove_row_btn{ background:url(../images/flight_listing_sprite.png) no-repeat; font-size:0px; }
+
+.modify_search{ -moz-border-radius:3px; -webkit-border-radius:3px; -o-border-radius:3px; border-radius:3px; border:solid 1px #ccc; }
+.modify_top{ background:#fff; padding:10px; -moz-border-radius:3px; -webkit-border-radius:3px; -o-border-radius:3px; border-radius:3px; }
+.modify_search .has_right_border{ border-right:solid 1px #ccc; min-height:50px; }
+.modify_city_name{ font-size:16px; line-height:1; }
+.via_multicity{ font-size:11px; color:#6d6d6d; }
+.country_name{ font-size:12px; }
+.modify_captions{ font:normal 10px Tahoma, Geneva, sans-serif; margin-bottom:4px; text-transform:uppercase; color:#878787; }
+.check-dates{ position:relative; }
+.check-dates .glyphicon-calendar{ font-size:18px; }
+.check-dates .date{ font-size:20px; line-height:1; }
+.check-dates .month_day{ font-size:12px; }
+.check-dates .arrow_greater{ background-position:-1px -203px; width:6px; height:10px; position:absolute; right:15px; }
+.modify_widget{ background:#e8e7e4; border-top:solid 1px #d4d4d4; padding:10px 0; margin-top:0; display:none; }
+.modify_ddn_fields{ position:relative; }
+.modify_ddn_fields .arrow_ddn_pointer{ position:absolute; top:9px; right:5px; }
+.make_field.form-control{ line-height:1; }
+.make_field.form-control a{ padding:10px 12px; font-weight:normal; }
+.make_field.form-control .form-control{ font-size:20px; font-weight:normal; }
+.make_field .month_day{ color:#838383; }
+.segmented_btn_auto{ height:auto; line-height:normal; padding:0; text-align:left; }
+.dep_arr_segment{ color:#2f2f2f; border-right:solid 1px #ececec; padding:10px 15px; }
+.dep_arr_segment:hover,.dep_arr_segment:focus,.dep_arr_segment:active{ color:#2f2f2f; }
+.dep_arr_segment.last{ border-right:0; }
+.dep_arr_segment .month_day,.check-dates .month_day{ display:inline-block; line-height:1.2em; padding-left:5px; vertical-align:top; }
+.dep_arr_segment > span{ vertical-align:top; }
+.roundtrip_info{ margin-top:2px; text-align:center; }
+.great_saving{ background:#5a9344; color:#5a9344; display:inline-block; padding:4px 10px; color:#fff; text-transform:uppercase; }
+.passanger_row{ border-bottom:solid 1px #d3d1cc; }
+.modify_button_row{ border-top:solid 1px #f3f3f1; padding:10px 0; }
+.modify_search_toggle{ padding:7px 10px; font-size:14px; border:solid 1px #bcbcbc; -moz-border-radius:2px; -webkit-border-radius:2px; -o-border-radius:2px; border-radius:2px; margin-top:4px; }
+.modify_search_toggle:hover{ background:#cb3904; color:#fff; }
+a.modify_search_toggle:focus,a.modify_search_toggle:active{ outline:none; }
+.geo_location_icon{ position:absolute; right:5px; top:4px; padding:2px 10px; }
+.geo_location_icon span{ background-position:-12px -205px; width:20px; height:20px; display:inline-block; }
+.sectors_seprator{ background-position:0 -301px; width:29px; height:29px; margin-top:3px; display:inline-block; }
+
+.multicity_wrapper{ background:#fff; -webkit-border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; border-radius:3px; border:solid 1px #d4d4d4; padding:10px; }
+.multicity_wrapper .modify_ddn_fields{ margin-top:8px; }
+.multicity_wrapper .dep_arr_segment{ padding-top:0; padding-bottom:0; border-right:0; border-left:solid 1px #ebebeb; margin-left:15px; }
+.multicity_wrapper .date{ font-size:28px; line-height:1; }
+.remove_multicity_row{ margin-left:-15px; color:#bcbcbc; }
+.remove_multicity_row:hover,.remove_multicity_row:focus,.remove_multicity_row:active{ color:#bcbcbc; }
+.remove_row_btn{ background-position:-38px -301px; width:24px; height:24px; margin-top:7px; display:inline-block; }
+.remove_buttonText{ font-size:10px; }
+
+/*-- Multicity case in Mobile --*/
+.sectorName_mobile{ font-size:36px; text-transform:uppercase; line-height:1; margin:5px 0; }
+.modify_cityname_mobile{ color:#828282; font-size:11px; text-transform:uppercase; }
+
+/*-- City dropdown list --*/
+.city_dropdown_list{ background:#fff; border:solid 1px #ccc; border-top:solid 1px #ececec; margin-top:-2px; position:absolute; z-index:2; width:100%; background:#fff; }
+.city_dropdown_list a{ padding:7px 12px; color:#2f2f2f; border-bottom:solid 1px #ececec; display:block; }
+.city_dropdown_list > li:last-child a{ border-bottom:0; border-radius:0 0 5px 5px; }
+
+.add_city_buttonbar{ display:block; height:34px; }
+.add_city_buttonbar a.form-control { border-radius:4px; text-align:left; height:32px; }
+
+
+.add_bottom_border{ border-bottom:1px solid #d3d1cc; }
+.need_top_space{ padding-top:16px; }
+.need_bottom_space{ padding-bottom:16px; }
+.add_top_border{ border-top:1px solid #f3f3f1; }
+.rund_trip_txt{ font-size:10px; }
+
+
+#mfs_bgcover{ opacity:0.5; background:#000; position:absolute; left:0; top:0; }
+
+/*---- Intl settings ----*/
+.filter_subdivisions_setNone{ padding:0 !important; border:0 !important; }
+.filter_subdivisions_setNone .active .checkbox_state{ background-position:-37px -2px; }
+/*---- /Intl settings ----*/
+
+/*!
+ * Bootstrap v3.0.2
+ *
+ *  Overtride methods depends on the below "Targeted" devices. [1200, 970, 480 etc.]
+*/
+
+/* Large desktop [ Mark: *LG* ] */ 
+@media (min-width:1200px) { 
+	.modify_top .hidden-sm{ display:inline-block !important; }	
+	.sectors_seprator.hidden-xs{ display:inline-block !important; }
+}
+
+/* desktop upto 1024px  [ Mark: *MD* ] */
+@media (min-width:992px) and (max-width:1199px) { 
+	.class_topsettings{ margin-top:18px; }
+	.sectors_seprator.hidden-xs{ display:inline-block !important; }
+	.multicity_wrapper .date{ font-size:24px; }
+	.modify_search_toggle .hidden-sm{ display:inline-block !important; }
+}
+
+/* Portrait tablet to landscape and desktop [ Mark: *SM* ] */
+@media (min-width:768px) and (max-width:991px) {
+	.modify_city_name{ font-size:14px; }
+	.check-dates .arrow_ddn_pointer{ right:-2px; top:4px; }
+	.check-dates .arrow_greater{ right:-9px; top:-5px; }
+	.sectors_seprator.hidden-xs{ display:inline-block !important; }
+	.class_topsettings{ margin-top:17px; }
+	.multicity_wrapper .date{ font-size:24px; }
+	.check-dates .glyphicon-calendar{ font-size:17px; }
+	.check-dates .month_day{ font-size:13px; }
+	.showingTotalPassanger{ display:none!important; }
+}
+
+/* Landscape phone to portrait tablet [ Mark: *XS* ] */
+@media (max-width:767px) { 
+	.col-sm-3.has_fade{ width:28%; float:left; padding-right:0px; }	
+	.col-sm-3.has_fade .modify_city_name{ font-size:13px; }
+	.col-sm-2.has_fade{ width:16%; float:left; padding:0px; margin-right:20px; }
+	.col-sm-2.has_fade .check-dates .month_day{ font-size:13px; }
+	.col-sm-2.has_fade .modify_captions{ font-size:11px; }
+	.col-sm-1.has_fade{ width:10%; float:left; padding:0px; }
+	.has_fade.modify{ width:10%; float:right; line-height:12px; }
+	.col-sm-2.has_fade.specfic{ width:14%; }
+	
+	.has_fade .modify_captions{ font-size:11px; }
+	.modify_search .has_right_border{ border-right:0; }	
+	.modify_city_name{ line-height:normal; }
+	.check-dates .arrow_greater{ right:-1px; }
+	.segmented_btn .date{ font-size:36px; line-height:1; }
+	.modify_city_name{ line-height:1;}
+	.modify_search_headmobile{ font-size:14px; font-weight:bold; }
+	.modify_search.noneAll{ border:0; }
+	.modify_ddn_fields{ padding:0 10px; margin-bottom:5px; }
+	.modify_widget{ border-radius:3px; }
+	.multicity_wrapper .dep_arr_segment{ border-left:0; border-right:solid 1px #e5e5e5; padding-left:0; margin-left:0px; }
+	.border_seprate_mobile{ border-bottom:solid 1px #e5e5e5; padding:5px; margin-bottom:5px; }
+	.add_top_border,.add_bottom_border{ border:0; }
+	.need_top_space{ padding-top:0px; }
+	.multicity_wrapper .modify_ddn_fields { margin-top:0px; }
+}
+
+@media (min-width:320px) and (max-width:599px) { 
+
+	.checkin_mobile,.checkout_mobile{ padding:10px 12px; }
+	.check-dates .glyphicon-calendar{ font-size:20px; }
+	.day_mobile{ padding-left:50px; margin-top:-2px; }
+	.checkin_mobile{ padding-left:25px;}
+	.checkout_mobile{ padding-left:40px;}
+	
+	.modify_widget{ margin-top:-1px; }
+	.dep_arr_segment .month_day .make_blockElm:first-child{ line-height:1; }
+	.make_field.form-control a{ padding:10px; }
+	.mfs_rel_wrapper{ margin-bottom:0; }
+	.mfs_rel_wrapper{ margin:0 -5px 0 -5px; }
+	
+}
+
+@media (min-width:320px) and (max-width:452px) { 
+.premium_economy{ line-height:1.4em; }
+}
+
+@media (max-width:320px)
+{
+	.make_field.form-control a{ padding:10px 6px; }
+	.make_field.form-control .form-control{ font-size:18px; }
+	.segmented_btn .date{ font-size:29px; }
+	.check-dates .month_day{ font-size:13px; }
+	.dep_arr_segment .month_day{ padding:0; }
+	.great_saving{ font-size:10px; }
+}

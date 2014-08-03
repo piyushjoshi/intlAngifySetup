@@ -1,0 +1,185 @@
+.stk_btm_arrow,.bottom_tooltip_close,.itineary_arrow,.rupee_icon,.baggage_icon,.open_icon_mark{ background:url(../images/flight_listing_sprite.png) no-repeat; font-size:0px; }
+
+.tip_icon,.tip_icon_tooltip{ background:url(../images/tip_icons.png) no-repeat; font-size:0px; }
+
+/*----- Sticky bottom -----*/
+.sticky_bottom{ background:#313131; border-top:solid 1px #fff; color:#bcbcbc; padding-top:10px; padding-bottom:20px; margin-top:25px; position:fixed; bottom:0; width:100%; z-index:2; }
+.sticky_bottom img{ margin-right:5px; }
+.stk_btm_fltTime{ font-size:14px; font-weight:bold; color:#fff; }
+.stk_btm_sector{ font-size:16px; font-weight:bold; line-height:1; }
+.stk_btm_price{ font-size:16px; font-weight:bold; color:#fff; }
+.font_12{ font-size:12px; }
+.stk_btm_arrow{ background-position:-88px -408px; width:13px; height:5px; display:inline-block; margin-top:15px; }
+.stk_btm_section{ border-right:solid 1px #bcbcbc; margin-top:15px; }
+.stk_btm_ttlAmt{ margin-top:15px; }
+.stk_btm_rtPrice{ background:#5e9435; color:#fff; padding:3px 5px; font-size:14px; }
+.stk_btm_earnpoint{ color:#5e9435; font-size:11px; }
+.stk_btm_rtDiscount{ margin-top:15px; }
+.stk_btm_toptabs{ position:absolute; left:0; top:-38px; text-transform:uppercase; font-size:11px; }
+.stk_btm_toptabs a{ width:155px; display:inline-block; }
+a.stk_btm_selFlight{ padding:6px; background:#414141; color:#fff; border-radius:4px 4px 0 0; position:relative; }
+a.stk_btm_chpFlight{ padding:6px; color:#fff; background:#5e9435; border-radius:4px 4px 0 0; position:relative; }
+a.stk_btm_selFlight.active .tip_icon{ background-position:-63px -5px; width:20px; height:10px; position:absolute; left:45%; top:100%; }
+a.stk_btm_chpFlight.active .tip_icon{ background-position:-92px -5px; width:20px; height:10px; position:absolute; left:45%; top:100%; }
+.stk_btm_mobilePrice{ font-size:16px; }
+.scratch_price{ text-decoration:line-through; }
+.stk_tablet_airline_mobile{ border-left:solid 1px #bcbcbc; }
+.stk_tablet_airline_mobile .row{ margin-left:-8px; }
+
+
+
+/*----- Tooltips cases -----*/
+.sticky_bottom_tooltip{ background:#fff; padding-top:20px; padding-bottom:20px; border-radius:2px; box-shadow:0 0 3px rgba(0,0,0,0.3); position:absolute; left:-45%; bottom:0; z-index:5; display:none; }
+.fare_details_heading{ font-size:14px; text-transform:uppercase; border-bottom:solid 1px #bcbcbc; margin-bottom:16px; }
+.bottom_tooltip_close{ background-position:-153px -10px; width:7px; height:7px; }
+.tip_icon_tooltip{ background-position:-8px -12px; width:51px; height:20px; position:absolute; left:45%; bottom:-20px; }
+
+/*--- fare details --*/
+.fare_details_tooltip{ width:320px; padding-left:15px; padding-right:15px; color:#2f2f2f; }
+.fare_baggage_tooltip{ color:#2f2f2f; left:auto; }
+.roundtrip_tooltip{ color:#2f2f2f; padding-top:10px; padding-bottom:10px; bottom:51px !important; left:-38% !important; }
+.roundtrip_tooltip .tip_icon_tooltip{ background-position:-18px -23px; width:14px; height:9px; bottom:-9px; }
+
+.fare_txt{ font-size:11px; }
+.fare_border{ border-bottom:1px solid #f2f2f2; padding-bottom:5px; }
+.total_base{ font-size:12px; font-weight:bold; margin-bottom:12px; }
+.fare_border_one{  border-top:1px solid #f2f2f2; padding-top:6px; border-bottom:1px solid #d8d8d8; padding-bottom:12px; }
+.grand_total{ font-size:12px; font-weight:bold; background:#e8e7e5; padding:6px 10px; }
+.rupee_icon{ background-position:-103px -5px; width:40px; height:40px; margin:0 auto 5px; }
+.rule_txt{ font-size:10px; color:#a7a7a7; text-align:center; line-height:12px; }
+.icon_part{ margin-right:10px; width:18%; }
+.fare_table{ width:100%; border-collapse:collapse; }
+.fare_table td{ padding:5px; font-size:11px; border:solid 1px #d0d0d0; }
+/*.fare_table tr.last td{ border-bottom:none; }*/
+.table_section{ width:76%; }
+.penalty_txt{ font-size:10px; color:#a7a7a7; line-height:14px; }
+
+.baggage_icon{ background-position:-105px -54px; width:40px; height:40px; margin:0 auto 5px; }
+
+.main-div .segmented_btn.first{ width:35%; margin:0px; }
+.main-div .segmented_btn.last{ width:65%; margin:0px; }
+
+.fare_tabdata{ display:none; }
+.first_active .itinerary_tabdata{ display:block; }
+.second_active .fare_tabdata{ display:block; }
+.second_active  .itinerary_tabdata{ display:none; }
+
+.flght_name{ font-size:11px; line-height:13px; margin-top:2px; }
+.fligh_number{ font-size:10px; color:#939393; }
+.logoitnry_section{ margin-right:15px; }
+.itnry_cityname{ font-size:18px; line-height:22px; color:#b1b1b1; }
+.itineary_arrow{ background-position:-74px -296px; width:15px; height:15px; display:block; margin:20px auto 0; }
+
+.stop_section{ border-top:1px dashed #b2b2b2; }
+.stop_textinfo{ border:1px solid #e5e5e5; background:#fcfcfc; padding:5px 10px; font-size:11px; color:#878787; line-height:11px; display:block; margin:-13px auto 0; width:250px; text-align:center; }
+
+
+
+/*------ Flight Details [ Copy from Listing ]-------*/
+.fare_baggage_tooltip .main-div{ border:0; margin-bottom:-1px; position:relative;  }
+.main_div_closeicon{ background-position:-118px -145px; width:16px; height:15px; position:absolute; top:10px; right:10px; z-index:2; }
+.open_icon_markwrapper{ padding:5px 0 5px 10px; cursor:pointer; }
+.open_icon_mark{ background-position:-5px -336px; width:18px; height:4px; }
+
+
+.itineary_dateinfo { color:#2f2f2f; font-size:16px; font-weight:bold; line-height:16px; }
+.refundable_txt { background:#5a9344; color:#fff; padding:1px 0; text-align:center; }
+
+.flght_name{ font-size:11px; line-height:13px; margin-top:2px; }
+.fligh_number{ font-size:10px; color:#939393; }
+.logoitnry_section{ margin-right:15px; }
+.itnry_cityname{ font-size:18px; line-height:22px; color:#b1b1b1; }
+
+.stop_section{ border-top:1px dashed #b2b2b2; }
+.stop_textinfo{ border:1px solid #e5e5e5; background:#fcfcfc; padding:5px 10px; font-size:11px; color:#878787; line-height:11px; display:block; margin:-13px auto 0; width:250px; text-align:center; }
+.ancillary_icon{ background-position:-4px -182px; height:22px; width:22px; display:inline-block; vertical-align:text-bottom; }
+.has_flt_details .ancillary_icon,.more_flight_section .ancillary_icon{ margin-top:4px; }
+.ancillary_txt{ color:#838383; text-transform:uppercase; font-size:10px; }
+.fare_calendar_btn{ margin:5px 0 5px 0; }
+.flight_details_link{ font-size:11px; }
+.meal_included_txt{ background:#5a9344; font-size:10px; text-transform:uppercase; color:#fff; text-align:center; padding:2px 5px; margin:0 3px; vertical-align:middle; }
+.meal_icon_square{ width:24px; height:24px; display:inline-block; background:#f6eed5; vertical-align:middle; margin-right:3px; }
+/*------ /Flight Details [ Copy from Listing ]-------*/
+
+
+
+/*---- Fare details settings ----*/
+.review_fare_details{ border:1px solid #d4d4d4; border-top-left-radius:3px; border-bottom-left-radius:3px; border-top-right-radius:3px; border-bottom-right-radius:3px; background:#fff; padding-top:5px; }
+.review_detls_strp{ font-size:12px; color:#2f2f2f; border-bottom:1px solid #f1f1f1; padding:8px 0; }
+.review_baselabel{ color:#a7a7a7; font-weight:700; }
+.review_detls_strp.total_base{ border-bottom-color:#d8d8d8; }
+.roundtrip_discount{ font-size:12px; color:#5e9434; font-weight:bold; padding:8px 0; }
+.review_grandtotal{ font-size:14px; font-weight:bold; }
+.review_red{ color:#cb3904; }
+.review_grandtotal{ background:#f8f8f8; padding:7px 0;  border-bottom-left-radius:3px; border-bottom-right-radius:3px; }
+.fare_revw_labl{ font-size:14px; color:#2f2f2f; line-height:14px; margin-top:10px; }
+
+.fare_details_parent{ float:none; position:absolute; z-index:4; right:16px; display:none; }
+
+.review_steps{ border-bottom:1px solid #faf9f9; }
+.review_steps_info{ width:45%; border-bottom:1px solid #cacaca; margin:0 auto 20px; position:relative; }
+.step_label { font-size:10px; line-height:10px; font-weight:bold; text-align:center; color:#838383; }
+
+.step_left{ width:50px; position:absolute; left:-15px; top:-16px; }
+.step_center{ width:66px; position:absolute; left:45%; top:-16px; }
+.step_right{ width:65px; position:absolute; right:-21px; top:-16px;  }
+.active .step_label{ color:#2f2f2f; }
+.active .step_icon{ background-position:-139px -237px; width:30px; height:30px; margin:0 auto 5px; font-size:12px; color:#fff; font-weight:bold; text-align:center; padding-top:6px; }
+.tobe_select .step_icon{ background-position:-143px -271px; width:24px; height:24px; margin:4px auto 7px; font-size:12px; color:#b1b1b1; font-weight:bold; text-align:center; padding-top:4px;  }
+.step_icon_select{ display:none; }
+.selected .step_icon_select{ display:block; background-position:-143px -301px; width:24px; height:24px; margin:4px auto 5px;  }
+.review_borderbottom{ border-bottom:1px solid #d8d8d8; padding-top:20px; padding-bottom:20px; }
+/*---- /Fare details settings ----*/
+
+
+a.anchor_detls{ font-size:11px; color:#bcbcbc; }
+a.anchor_detls:hover{ text-decoration:underline; }
+.spcl_prce{ font-size:22px; line-height:20px; font-weight:normal; }
+.spcl_label{ color:#fff; }
+
+
+
+/*--- /fare details --*/
+/*----- Tooltips cases -----*/
+@media (min-width:1200px)
+{
+	.fare_baggage_tooltip .tip_icon_tooltip{ left:80%; }
+}
+
+@media (min-width:992px) and (max-width:1199px) { 
+.stk_btm_sector,.stk_btm_price,.stk_btm_fltTime{ font-size:12px; }
+.stk_btm_price.spcl_prce{ font-size:16px; }
+
+.stk_btm_section .font_12{ font-size:9px; }
+.stk_btm_arrowWrapper{ padding:0; }
+.stk_btm_toptabs{ top:-39px;}
+.fare_baggage_tooltip .tip_icon_tooltip{ left:80%; }
+}
+
+/* Landscape phone to portrait tablet [ Mark: *XS* ] */
+@media (max-width:767px) { 
+	.stk_btm_toptabs{ display:none; }
+	.stk_btm_section{ margin-top:0; }
+	.fare_left_section{ width:100%; }
+	.fare_baggage_tooltip .tip_icon_tooltip{ left:10%; }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.stk_tablet_airline{ width:100%; }
+.stk_tablet_airline .make_blockElm{ display:inline; }
+.stk_btm_sector,.stk_btm_price,.stk_btm_fltTime{ font-size:12px; }
+.stk_btm_section .font_12{ font-size:9px; }
+.stk_btm_toptabs{ top:-39px;}
+.fare_baggage_tooltip .tip_icon_tooltip{ left:42%; }
+a.anchor_detls{ font-size:9px; }
+}
+
+
+
+@media (min-width:320px) and (max-width:480px) {
+	.fare_baggage_tooltip{ left:0; }
+}
+
+@media (min-width:320px) and (max-width:481px) {
+
+}

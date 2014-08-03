@@ -1,0 +1,167 @@
+.checkbox_state,.ui-slider .ui-slider-handle,.OR_seprator_section,.filter_tip,.morning_icon,.noon_icon,.evening_icon,.night_icon{ background:url(../images/flight_listing_sprite.png) no-repeat; font-size:0px; }
+
+.filter_tip{ background-position:-39px -55px; width:13px; height:22px; position:absolute; left:-14px; top:40px; display:none; }
+.filters_subhead{ color:#838383; font-size:14px; }
+.filter_subdivisions{ padding:16px 0; border-top:solid 1px #f2f2f2; border-bottom:solid 1px #d8d8d8; }
+.filter_subdivisions.last{ border-bottom:0; margin-bottom:0; padding-bottom:0; }
+
+.star_ratinginfo{ border:1px solid #d4d4d4; width:100%; }
+a.rating_sectn{ background:#fff; border-right:1px solid #d4d4d4; border-bottom:solid 4px #bcbcbc; text-align:center; padding:5px 0; color:#a4a4a4; height:65px; width:25%; text-decoration:none; }
+.rating_sectn.active{ border-bottom:solid 4px #fdd000; color:#2f2f2f; height:65px; }
+a.rating_sectn:hover,a.rating_sectn:active,a.rating_sectn:focus{ color:#a4a4a4; }
+.departure_timings a.rating_sectn{ height:78px; }
+a.rating_sectn.active:hover,a.rating_sectn.active:active,a.rating_sectn.active:focus{ color:#2f2f2f; }
+a.rating_sectn.last{ border-right:0; }
+.stop_text{ font-size:20px; margin-bottom:3px; }
+a.rating_sectn .price{ color:#878787; }
+
+.filters_heading{ font-size:14px; border-bottom:solid 1px #d8d8d8; padding-bottom:6px; }
+.filters_heading a{ font-size:12px; text-decoration:underline; }
+.filters_heading a:hover, #filters_panel .filter_subdivisions a{ text-decoration:none; }
+.price_text{ color:#cb3904; }
+.filter_subdivisions .form-group{ margin-bottom:8px; }
+.filter_subdivisions a{ text-decoration:underline; }
+.filter_subdivisions a:hover{ text-decoration:none; }
+.filter_subdivisions .form-control{ border-radius:0; }
+.filter_subdivisions .glyphicon-search{ color:#c6c5c4; }
+.filter_subdivisions .form-group.noBottomSpace{ margin-bottom:0; }
+.filter_subdivisions a.glyphicon-search{ color:#2f2f2f; }
+.filter_subdivisions .checkbox{ cursor:pointer; }
+.checkbox input[type="checkbox"],.radio input[type="radio"]{ margin-top:2px; }
+.filter_subdivisions .checkbox input[type="checkbox"]{ display:none; }
+.filter_subdivisions .checkbox{ border-bottom:solid 1px #d8d8d8; padding-left:15px; padding-top:8px; padding-bottom:8px; line-height:22px; background:#f8f8f6; }
+.filter_subdivisions .checkbox.active{ background:#fff; }
+.filter_subdivisions .checkbox.last{ margin-bottom:0; padding-bottom:0; }
+.filter_subdivisions .radio + .radio, .filter_subdivisions .checkbox + .checkbox{ margin-top:4px; padding-bottom:8px; line-height:22px; }
+.checkbox_state{ background-position:-67px -2px; width:25px; height:25px; display:inline-block; }
+.active .checkbox_state{ background-position:-37px -2px; }
+.filter_handler{ margin:5px 10px 5px 0; display:none; }
+.filter_handler .glyphicon-filter{ font-size:15px; }
+.filter_handler:hover{ color:#fff; }
+.location_form{ position:relative; }
+.location_form .glyphicon-search{ position:absolute; left:5px; top:12px; }
+.location_form input[type="text"]{ padding-left:20px; }
+.location_selected{ border:0; }
+.no_topborder,.filter_subdivisions.location_selected{ border-top:0; }
+
+.morning_icon{ background-position:-2px -270px; width:30px; height:24px; display:inline-block; }
+.noon_icon{ background-position:-39px -270px; width:22px; height:23px; display:inline-block; }
+.evening_icon{ background-position:-73px -267px; width:32px; height:22px; display:inline-block; }
+.night_icon{ background-position:-113px -265px; width:26px; height:22px; display:inline-block; }
+.airline_info{ line-height:1; }
+.airline_price { font-size:11px; }
+.airline_price .type_select{ color:#919191; }
+.airline_image{ margin-right:8px; }
+.stops_info a.rating_sectn{ width:33.33%; }
+.stops_info a.rating_sectn.last{ width:33.35%; }
+
+
+/*--- Media List --*/
+.media_list{ padding:0; margin:0; }
+.media_list_head{ font-size:14px; }
+.media_list li{ margin-bottom:10px; list-style-type:none; }
+.media_list li img{ border:solid 2px #fff; }
+.media_list li.last{ margin-bottom:0; }
+.media_list li, .media_list_text{ overflow:hidden; }
+.media_list_text p{ margin-bottom:5px; }
+.media_list > li > .pull-left{ margin-right:8px; }
+
+
+/*------ Hamberger Panel [ Override rules ] -----*/
+.filters.hamburgerPanel ul li > a{ padding:0; }
+#filters .panelSlide { color:#2f2f2f; font-size:12px; }
+
+/*-- Slider Settings -- */
+.ui-slider.ui-corner-all{ -moz-border-radius:0; -webkit-border-radius:0; -o-border-radius:0; border-radius:0; }
+.ui-slider { border:0; border-top:solid 1px #8a8a8a; background:#ccc; width:94%; }
+.ui-slider-horizontal{ height:0.5em; }
+.ui-slider .ui-slider-handle { background-position:0 0; width:31px; height:31px; border:0; -moz-border-radius:0; -webkit-border-radius:0; -o-border-radius:0; border-radius:0; position:absolute; top:-13px; z-index:2; cursor:pointer; }
+.ui-slider .ui-slider-range { position:absolute; z-index: 1;  display: block; border-top:solid 1px #c7a200; height:6px; background:#fdd000; top:-1px; -moz-border-radius:0; -webkit-border-radius:0; -o-border-radius:0; border-radius:0; }
+
+
+/*--- Intl filters ---*/
+.nearby_airports .nearby_airport_name{ line-height:25px; }
+.rating_sectn sub{ font-size:10px; line-height:1; }
+.filter_subdivisions.departure_timings{ padding-top:0; border-top:0; }
+.filter_subdivisions .show_refundable_cbrwapper,.filter_subdivisions .show_refundable_cbrwapper.active{ background:none; border:0 !important; padding:0; }
+.show_refundable_cbrwapper .show_refundable_txt{ line-height:25px; }
+.show_refundable_cbrwapper .checkbox_state{ margin-right:8px; }
+.connecting_airports{ padding-bottom:0; border-bottom:0; }
+/*--- /Intl filters ---*/
+
+/*!
+ * Bootstrap v3.0.2
+ *
+ *  Overtride methods depends on the below "Targeted" devices. [1200, 970, 480 etc.]
+*/
+
+/* Large desktop [ Mark: *LG* ] */ 
+@media (min-width:1200px) { 
+	#filters_panel{ position:static; border-right:1px solid #d8d8d8; width:292px !important;}
+	#filters_panel.is_stuck{ left:auto !important; }
+	.filter_subdivisions .checkbox{ border:solid 1px #d8d8d8; }
+	.price_borderbox{ background:#fff; border:solid 1px #d4d4d4; padding-top:10px; padding-bottom:20px; }
+
+}
+
+/* desktop upto 1024px  [ Mark: *MD* ] */
+@media (min-width:992px) and (max-width:1199px) { 
+	#filters_panel{ position:static; border-right:1px solid #d8d8d8; width:241px !important;}
+	#filters_panel.is_stuck{ left:auto !important; }
+	.filter_subdivisions .checkbox{ border:solid 1px #d8d8d8; }
+	.price_borderbox{ background:#fff; border:solid 1px #d4d4d4; padding-top:10px; padding-bottom:20px; }
+	.filter_dep_time{ font-size:11px; }
+}
+
+/* Portrait tablet to landscape and desktop [ Mark: *SM* ] */
+@media (max-width:991px) {
+	#filters_panel{  width:275px; position:absolute; z-index:20; background:#343434; border:solid 1px #343434; -moz-box-shadow: 0 0 3px rgba(0,0,0,.3); -webkit-box-shadow: 0 0 3px rgba(0,0,0,.3); -0-box-shadow: 0 0 3px rgba(0,0,0,.3); box-shadow: 0 0 3px rgba(0,0,0,.3); padding:10px;}
+	.filters_heading{ color:#fff; border-bottom:0; background:#3b3b3b; padding:10px; margin:-10px; position:relative; }
+	.price_text{ color:#c7a200; }
+	.ui-slider{ width:89%; }
+	.filter_subdivisions { border-bottom:1px solid #242424; border-top: 1px solid #434343; color:#fff; }
+	.filter_subdivisions.connecting_airports{ border-bottom:0; }
+	.filter_subdivisions .input-group-addon{ display:none;}
+	.filters_subhead{ color:#d1d1d1;/* margin-bottom:8px; */ }
+	.filters_subhead strong{ font-weight:normal;  }
+	.filter_subdivisions .checkbox{ padding:10px; background-color:#606060; border-bottom:solid 1px #343434; }
+	.filter_subdivisions .show_refundable_cbrwapper,.filter_subdivisions .show_refundable_cbrwapper.active{ background:none; border:0 !important; padding:0; }
+
+	.filter_hotel_location .checkbox.last{ border-bottom:1px solid #343434; }
+	/*.filter_subdivisions .checkbox.append_bottom6{ margin-bottom:0; }*/
+	.filter_subdivisions .checkbox.active{ background-color:#464646; }
+	.filter_subdivisions .show_refundable_cbrwapper.checkbox.active{ background:none; }
+	/*.filter_price .filters_subhead{ margin-bottom:16px; }*/
+	.filter_subdivisions .radio + .radio, .filter_subdivisions .checkbox + .checkbox{ margin-top:0; padding-bottom:10px; }
+	.active .checkbox_state{ background-position:-3px -55px; }
+	.star_ratinginfo{ border:solid 1px #343434; }
+	a.rating_sectn{ background:#606060; border-right:1px solid #343434; border-bottom:solid 3px #8c8c8c; padding:5px 0; color:#ffffff; }
+	a.rating_sectn.active{ background:#3c3c3c; color:#ffffff; }
+	a.rating_sectn.disabled{ background:#414141; border-bottom-color:#4f4f4f; color:#545454; }
+	a.rating_sectn .active-star{ color:#ffffff; }
+	a.rating_sectn.active .active-star{ color:#ffffff; }
+	a.rating_sectn.disabled .active-star{ color:#545454; }
+	a.rating_sectn:hover,a.rating_sectn:active,a.rating_sectn:focus,
+	a.rating_sectn.active:hover,a.rating_sectn.active:active,a.rating_sectn.active:focus{ color:#ffffff; }
+	a.rating_sectn.disabled:hover,a.rating_sectn.disabled:active,a.rating_sectn.disabled:focus{ color:#545454; }
+	a.rating_sectn.disabled .filter_dep_time{ color:#fff; }
+	a.clear_btn{ background:#343434; border:solid 1px #8a8a8a; padding:3px 8px; text-decoration:none; color:#fff; }
+	
+	
+	.morning_icon{ background-position:-2px -240px; }
+	.noon_icon{ background-position:-40px -240px; }
+	.evening_icon{ background-position:-72px -242px; }
+	.night_icon{ background-position:-113px -238px; }
+	a.rating_sectn .time{ color:#fff; }
+	.filters_panel_inner.affix,.filters_panel_inner.affix-bottom { position:static; }
+	.price_borderbox{ padding-bottom:10px; }
+	a.show_allairlines,.underlined_tabs li a,.departure_timings .light_gray{ color:#d1d1d1; }
+}
+
+
+@media (min-width:590px) and (max-width:991px) {
+	.filter_tip{ display:inline; }
+	.filter_handler{ display:block; }
+}
+/* Landscape phone to portrait tablet [ Mark: *XS* ] */
+@media (max-width:767px) { }

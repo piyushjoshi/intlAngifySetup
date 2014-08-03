@@ -1,0 +1,115 @@
+<div>
+	<!-- $scope recList -->
+	<div class="container">
+		<div class="page-header">
+			<h3>Intl Flights</h3>
+		</div>
+		<div id="listingPage" infinite-scroll="scrollMore()"
+			infinite-scroll-distance="1">
+			<div class="row">
+				<div class="col-md-3 visible-md visible-lg">Filters</div>
+				<div class="col-md-9">
+					<!-- $scope recGroup -->
+					<div
+						ng-repeat="recGroup in recList | limitTo:currentlyDisplayedRecs">
+						<div class="row marginBtm16 visible-xs">
+							<div class="col-xs-2">
+								<img
+									ng-src="{{airlineInfo[recGroup[0].refAirline[0].code].smallLogo}}"
+									alt="Logo" />
+							</div>
+							<div class="col-xs-4">{{airlineInfo[recGroup[0].refAirline[0].code].name}}</div>
+							<div class="col-xs-3">
+								<span class="strike" ng-show="recGroup[0].totDiscountPerAdt > 0">{{(recGroup[0].totPricePerAdt
+									+ recGroup[0].totDiscountPerAdt) | currency : 'INR ' |
+									currencyWithoutDecimal}}</span>
+							</div>
+							<div class="col-xs-3">{{recGroup[0].totPricePerAdt |
+								currency : 'INR ' | currencyWithoutDecimal}}</div>
+						</div>
+						<div class="row innerRow marginBtm16" ng-controller="recGroupCtrl">
+							<div class="col-sm-2 hidden-xs">
+								<p>
+									<img
+										ng-src="{{airlineInfo[recGroup[0].refAirline[0].code].smallLogo}}"
+										alt="Logo" />
+								</p>
+								<p>{{airlineInfo[recGroup[0].refAirline[0].code].name}}</p>
+							</div>
+							<div class="row innerRow col-sm-6">
+								<div class="row innerRow marginBtm8"
+									ng-class="{hashborder_bottom:!$last}"
+									ng-repeat="radioGroup in radioGroups">
+									<div class="groupedRecs" ng-show="!isSingleRec"
+										ng-controller="radioGroupCtrl">
+										<div class="row innerRow marginBtm8">
+											<div class="col-xs-6">
+												{{radioGroup[0].segment.groupOfFlights[0].departureInfo.cityName}}</div>
+											<div class="col-xs-6">
+												{{radioGroup[0].segment.groupOfFlights[radioGroup[0].segment.groupOfFlights.length-1].arrivalInfo.cityName}}
+											</div>
+										</div>
+										<div class="row innerRow marginBtm8"
+											ng-repeat="radioObj in radioGroup">
+											<div class="col-xs-4">
+												<input type="radio"
+													ng-model="$parent.selectedRadioIndexRegistry[$parent.$index]"
+													value="{{$index}}"
+													ng-change="radioClick($index, $parent.$index)" />
+												{{radioObj.segment.groupOfFlights[0].departureInfo.absDateTime}}
+											</div>
+											<div class="col-xs-4">
+												({{radioObj.segment.durationFormatted}} |
+												{{radioObj.segment.noOfStops | stopsDisplay}})</div>
+											<div class="col-xs-4">
+												{{radioObj.segment.groupOfFlights[radioObj.segment.groupOfFlights.length-1].arrivalInfo.absDateTime}}
+											</div>
+										</div>
+									</div>
+									<div ng-show="isSingleRec">
+										<div class="col-xs-4">
+											<p>{{radioGroup[0].segment.groupOfFlights[0].departureInfo.absDateTime}}</p>
+											<p>{{radioGroup[0].segment.groupOfFlights[0].departureInfo.cityName}}</p>
+										</div>
+										<div class="col-xs-5">
+											<p>{{radioGroup[0].segment.groupOfFlights[radioGroup[0].segment.groupOfFlights.length-1].arrivalInfo.absDateTime}}</p>
+											<p>{{radioGroup[0].segment.groupOfFlights[radioGroup[0].segment.groupOfFlights.length-1].arrivalInfo.cityName}}</p>
+										</div>
+										<div class="col-xs-3">
+											<p>{{radioGroup[0].segment.durationFormatted}}</p>
+											<p>{{radioGroup[0].segment.noOfStops | stopsDisplay}}</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-2 hidden-xs">
+								<div class="hidden-all">
+									<p>Earn 50 points</p>
+									<p>& 20000 miles</p>
+								</div>
+								<p>
+									<a>Flight details</a>
+								</p>
+							</div>
+							<div class="col-sm-2 hidden-xs">
+								<p ng-show="recGroup[0].totDiscountPerAdt > 0">
+									<span class="strike">{{(recGroup[0].totPricePerAdt +
+										recGroup[0].totDiscountPerAdt) | currency : 'INR ' |
+										currencyWithoutDecimal}}</span>
+								</p>
+								<p>
+									<span>{{recGroup[0].totPricePerAdt | currency : 'INR ' |
+										currencyWithoutDecimal}}</span>
+								</p>
+								<p>
+									<button class="btn btn-success">Book</button>
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- /$scope recGroup -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

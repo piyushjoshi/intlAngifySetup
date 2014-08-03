@@ -1,0 +1,103 @@
+
+<!-- top list -->
+<div class="row append_bottom8">
+	<div class="col-sm-12 visible-stb">
+		<div class="clearfix ">
+			<!-- Filter button [ Visible in Tablets and Small Tablets ] -->
+			<a href="javascript:void(0);" id="productPanelTrigger" class="filter_handler pull-left btn btn-md btn-secondary"> <span
+				class="glyphicon glyphicon-filter pull-left"></span> <span class="pull-left marL5">Filter</span>
+			</a>
+			<!-- /Filter button [ Visible in Tablets and Small Tablets ] -->
+			<!-- Flight Icon [ Hidden in Mobile only ]-->
+			<span class="pull-left departure_icon hidden-xs visible-stb"></span>
+			<!-- /Flight Icon [ Hidden in Mobile only ] -->
+			<!-- Flight Details -->
+			<div class="flight_details_strip pull-left">
+				<p class="flight_dtl_sectors">Round Trip, BLR - LON</p>
+				<p class="hidden-xs visible-stb">
+					<span class="light_gray">196 Flights found |</span> <a href="#">Show all flights</a>
+				</p>
+				<p class="hidden-lg hidden-md hidden-sm hidden-stb light_gray">DEPART 16 JUL | RETURN 26 JUL</p>
+			</div>
+			<!-- Flight Details -->
+
+			<!-- [ Visible in Desktop and Tablets ] -->
+			<select name="currency_selection" class="input-sm pull-right hidden-xs currency_selection">
+				<option value="INR">Indian Currency (INR)</option>
+			</select>
+			<!-- [ Visible in Desktop and Tablets ] -->
+
+			<!-- [ Visible in Mobile Only ] -->
+			<select name="currency_selection" class="input-sm pull-right hidden-lg hidden-md hidden-sm currency_selection">
+				<option value="INR">INR</option>
+			</select>
+			<!-- [ Visible in Mobile Only ] -->
+		</div>
+	</div>
+</div>
+<!-- /top list -->
+<!-- sorting -->
+<!-- styles for filters -->
+<link rel="stylesheet" type="text/css" href="css/sorting.css" />
+<!-- /styles for filters -->
+
+<div class="append_bottom8 sorting_button_row clearfix">
+	<div class="col-sm-3 col-xs-4 departure_informtn make_relative">
+		<a href="#" class="row segmented_btn text-center first"> DEPARTURE <span class="down_arrow"> <!-- FF and Opera -->
+		</span>
+		</a>
+
+		<!-- sorting options list -->
+		<ul class="sorting_options_list departure_sorting_ddn">
+			<li><a href="#">Departure onward (Early)</a></li>
+			<li><a href="#">Departure onward (Late)</a></li>
+			<li><a href="#">Departure return (Early)</a></li>
+			<li><a href="#">Departure return (Late)</a></li>
+		</ul>
+		<!-- /sorting options list -->
+	</div>
+
+	<div class="col-sm-3 col-xs-4 duration_informtn make_relative hidden-xs visible-stb">
+		<a href="#" class="row segmented_btn text-center"> DURATION <span class="down_arrow"> <!-- FF and Opera -->
+		</span>
+		</a>
+	</div>
+
+	<div class="col-sm-3 col-xs-4 arrival_informtn make_relative">
+		<a href="#" class="row segmented_btn text-center"> ARRIVAL <span class="down_arrow"> <!-- FF and Opera -->
+		</span>
+		</a>
+	</div>
+
+	<div class="col-sm-3 col-xs-4 price_informtn make_relative">
+		<a href="#" class="row segmented_btn text-center last"> PRICE <span class="down_arrow"> <!-- FF and Opera -->
+		</span>
+		</a>
+		<!-- sorting options list -->
+		<ul class="sorting_options_list price_sorting_ddn">
+			<li><a href="#">Low to High</a></li>
+			<li><a href="#">High to Low</a></li>
+		</ul>
+		<!-- /sorting options list -->
+	</div>
+</div>
+
+<script type="text/javascript">
+<!--
+	$(function() {
+		$(".sorting_button_row").find("a.segmented_btn").on("click", function(e) {
+			var $this = $(this);
+			$(".sorting_options_list").not($this.next(".sorting_options_list")).hide();
+			;
+			$this.next(".sorting_options_list").slideDown(300);
+			e.preventDefault();
+		});
+	});
+
+	//stopPropogation() operation 
+	$(".sorting_button_row a.segmented_btn").on("click", function(e) {
+		stopPropogation(e);
+	});
+//-->
+</script>
+<!-- /sorting -->

@@ -1,0 +1,49 @@
+.search_selector{ display:none;position:absolute;z-index:100;width:100%;margin-left:-10px; background:#e8e7e4; padding-top:15px; padding-bottom:15px; min-height:300px;}
+.city_heading{ font-size:14px; font-weight:bold; margin-bottom:6px; text-transform:uppercase;}
+
+/*---- top cities scroll ----*/
+.top_cities_scroll{ height:500px; overflow:auto; margin-top:10px; }
+.top_cities_list li a{ padding:5px 0; display:block; color:#2f2f2f; font-size:15px; padding-left:8px; }
+.top_cities_list li.top_cities_heading{ font-size:13px; color:#828282; border-bottom:solid 1px #919191; padding:5px 5px 5px 0;}
+
+/*---- Custom Scrollbar ---- */
+.custom_scrollbar{ margin-bottom:10px; }
+.custom_scrollbar .viewport { width:142px; height:170px; overflow:hidden; position:relative; }
+.custom_scrollbar .overview { position:absolute; left:0; top:0; padding:0; margin:0; width:100%; }
+.custom_scrollbar .scrollbar { width:10px; position:relative; float:right; }
+.custom_scrollbar .track { width:1px; position:relative; background-color:#999; }
+.custom_scrollbar .thumb { width:6px; background-color:#999; position:absolute; top:0; left:-2px; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px; -o-border-radius:5px; cursor:pointer; }
+
+.top_cities_scroll .viewport { width:95%; height:200px; }
+.top_cities_scroll .track{ background:none; }
+.top_cities_scroll .scrollbar{ width:4px; }
+/*---- /Custom Scrollbar ---- */
+
+/*!
+ * Bootstrap v3.0.2
+ *
+ *  Overtride methods depends on the below "Targeted" devices. [1200, 970, 480 etc.]
+*/
+
+/* Large desktop [ Mark: *LG* ] */ 
+@media (min-width:1200px) { 
+}
+
+/* desktop upto 1024px  [ Mark: *MD* ] */
+@media (min-width:992px) and (max-width:1199px) { 
+}
+
+/* Portrait tablet to landscape and desktop [ Mark: *SM* ] */
+@media (min-width:768px) and (max-width:991px) {
+}
+
+/* Landscape phone to portrait tablet [ Mark: *XS* ] */
+@media (max-width:767px) { 
+}
+
+@media (min-width:320px) and (max-width:599px) { 
+}
+
+@media (max-width:320px)
+{
+}

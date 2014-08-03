@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-concat": "^2.3.4",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-uglifyjs": "^0.4.2"
+  }
+}

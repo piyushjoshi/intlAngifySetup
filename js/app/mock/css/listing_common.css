@@ -1,0 +1,251 @@
+/*--- Listing-Section ----*/
+/*---- Sprite sharing classes ----*/
+.deal_icon,.rupee_icon,.baggage_icon,.itineary_arrow,.open_icon_mark,.main_div_closeicon,.departure_icon,.ancillary_icon,.fewleft_icon,.ot_guarantee,.arrow_denotion,.arrow_denotion,.change_intl_flticon,.intl_time_flticon,.extra_spprticn,.more_drp_icn,.arrival_icon{ background:url(../images/flight_listing_sprite.png) no-repeat; font-size:0px; }
+
+.listing_row{ background-color:#fff; border-top-left-radius:3px; border-bottom-left-radius:3px; -moz-border-radius-topleft:3px; -moz-border-radius-topright:3px; }
+.sponsored_list_wrapper{ margin-top:20px; }
+.sponsored_listing{ color:#fff; background-color:#595959; position:absolute; left:0; top:-6px; padding:2px 5px; font-size:10px; text-transform:uppercase; }
+.listing_top{ padding:15px 0 15px 0; position:relative; }
+
+.logo_name{ font-size:11px; white-space:nowrap; line-height:1.1em; }
+.time{ font-size:14px; color:#2f2f2f; }
+.city_name{ font-size:11px; color:#828282; }
+.price_info{ font-size:16px; color:#cb3904; }
+.reward_point{ font-size:11px; color:#5e9435; }
+.fewleft_icon { background-position:-69px -61px; width:14px; height:14px; margin-right:3px; margin-top:3px;}
+.fewroom_txt { color:#d25325; font-size:11px; line-height:11px; margin-top:5px; }
+.next_icon{ margin:8px 8px 0 0; }
+.slashed_price{ font-size:11px; color:#8d8d8d; line-height:11px; text-decoration:line-through; }
+
+.listing_bottom{ border-top:1px solid #d6d6d6; padding:5px 0px; position:relative; }
+.deal_icon{ background-position:-3px -124px; width:55px; height:20px; font-size:11px; color:#ffffff; padding:2px 0 0 8px; position:absolute; left:0px; }
+.deal_txt{ font-size:12px; margin:0px 0 0 65px; line-height:20px; }
+
+.main-div{ border-top:1px solid #d4d4d4; padding:10px 0; position:relative;  }
+.main_div_closeicon{ background-position:-48px -35px; width:16px; height:15px; position:absolute; top:15px; right:10px; }
+.open_icon_markwrapper{ padding:5px 0 5px 10px; cursor:pointer; }
+.open_icon_mark{ background-position:-5px -336px; width:18px; height:4px; }
+.fare_txt{ font-size:11px; }
+.fare_border{ border-bottom:1px solid #f2f2f2; padding-bottom:5px; }
+.total_base{ font-size:12px; font-weight:bold; margin-bottom:12px; }
+.fare_border_one{  border-top:1px solid #f2f2f2; padding-top:6px; border-bottom:1px solid #d8d8d8; padding-bottom:12px; }
+.grand_total{ font-size:12px; font-weight:bold; background:#e8e7e5; padding:6px 10px; }
+.rupee_icon{ background-position:-103px -5px; width:40px; height:40px; margin:0 auto 5px; }
+.rule_txt{ font-size:10px; color:#a7a7a7; text-align:center; line-height:12px; }
+.icon_part{ margin-right:10px; width:18%; }
+.fare_table{ width:100%; border-collapse:collapse; }
+.fare_table td{ padding:5px; font-size:11px; border:solid 1px #d0d0d0; }
+/*.fare_table tr.last td{ border-bottom:none; }*/
+.table_section{ width:76%; }
+.penalty_txt{ font-size:10px; color:#a7a7a7; line-height:14px; }
+
+.baggage_icon{ background-position:-105px -54px; width:40px; height:40px; margin:0 auto 5px; }
+
+.main-div .segmented_btn{ margin:0px; width:20%; }
+.main-div .segmented_btn.last{ margin:0px; }
+.bagage_detls_info .total_base{ margin-bottom:5px; }
+
+
+.fare_tabdata{ display:none; }
+.first_active .itinerary_tabdata{ display:block; }
+.second_active .fare_tabdata{ display:block; }
+.second_active  .itinerary_tabdata{ display:none; }
+
+.flght_name{ font-size:11px; line-height:13px; }
+.fligh_number{ font-size:10px; color:#939393; line-height:11px; }
+.logoitnry_section{ margin-right:15px; }
+.itnry_cityname{ font-size:12px; line-height:22px; color:#2f2f2f; }
+.itineary_arrow{ background-position:-74px -296px; width:15px; height:15px; display:block; margin:20px auto 0; }
+
+.stop_section{ border-top:1px dashed #b2b2b2; }
+.stop_textinfo{ border:1px solid #e5e5e5; background:#fcfcfc; padding:3px 10px; font-size:11px; color:#878787; line-height:18px; display:block; margin:-13px auto 0; width:410px; text-align:center; }
+
+.flight_details_strip .flight_dtl_sectors{ font-size:12px; margin-top:4px; }
+.fare_calendar_btn .glyphicon-calendar{ color:#fff; }
+.departure_icon { background-position:-71px -329px; height:12px; margin:10px 8px 0 0; width:24px; }
+.arrival_icon { background-position:-99px -329px; height:12px; margin:10px 8px 0 0; width:24px; }
+.ancillary_icon{ background-position:-59px -374px; height:22px; width:22px; display:inline-block; vertical-align:text-bottom; }
+.ancillary_txt{ color:#838383; text-transform:uppercase; font-size:10px; }
+.flight_details_link{ font-size:11px; }
+.meal_included_txt{ background:#5a9344; font-size:10px; text-transform:uppercase; color:#fff; text-align:center; padding:2px 5px; margin:0 3px; vertical-align:middle; }
+.meal_icon_square{ width:24px; height:24px; display:inline-block; background:#f6eed5; vertical-align:middle; margin-right:3px; }
+.ot_guarantee_wrapper{ margin-top:18px; }
+.ot_guarantee{ background-position:0 -437px; width:139px; height:23px;  position:absolute; left:-1px; top:-1px; }
+.ot_guarantee_wrapper .listing_top{ padding:25px 0 0; }
+
+.arrow_denotion{ background-position:-74px -296px; width:15px; height:15px; display:block; margin:0 auto; }
+.flight_timing{ background:#f8f8f8; }
+.flight_timing.no_bg{ background:#fff; }
+.intl_time{ font-size:13px; color:#2f2f2f; }
+.flight_timing{ padding-top:4px; padding-bottom:4px; }
+.stop_time_info{ font-size:11px; color:#878787; font-weight:bold; line-height:18px; }
+.intl_flght_details{ padding-left:0px; }
+.round_dscnt{ padding-left:0px; }
+
+.itineary_logo{ padding-top:5px; }
+.itineary_duration{ text-align:right; }
+.refundable_txt{ background:#5a9344; font-size:11px; color:#fff; text-align:center; padding:3px; line-height:12px; }
+.change_intl_flticon{ background-position:-58px -84px; width:19px; height:8px; display:inline-block; margin-right:5px; }
+.intl_time_flticon{ background-position:-85px -82px; width:12px; height:12px; display:inline-block; margin-right:5px; }
+.itineary_dateinfo{ font-size:16px; color:#2f2f2f; font-weight:bold; }
+.extra_info{ font-size:11px; color:#878787; line-height:11px; }
+.extra_spprticn{ background-position:-58px -97px; width:14px; height:16px; display:inline-block; margin-right:8px; line-height:24px;  }
+.fare_bottm_brder{ border-bottom:1px solid #d8d8d8; padding-bottom:5px; margin-bottom:16px; }
+
+.fare_table_section{ border:1px solid #d0d0d0;}
+.fare_table_section tr.heading{ background:#f8f8f8; }
+.fare_table_section tr.heading th{ padding:4px 10px; font-size:11px; line-height:14px; font-weight:normal; border-right:1px solid #d0d0d0; text-align:left; border-bottom:1px solid #d0d0d0; }
+.fare_table_section td{ font-size:11px; padding:6px 10px; border-right:1px solid #d0d0d0; text-align:center; text-align:left; vertical-align:top; border-bottom:1px solid #d0d0d0; }
+
+.bagage_seprationinfo{ border-bottom:1px solid #e5e5e5; height:1px; padding-top:8px; }
+.baggage_txt{ font-size:11px; line-height:14px; color:#878787; }
+.radio_bttn{ margin:0px 1px 0 -4px!important; padding:0px; width:14px; }
+.more_optiontxt{ font-size:12px; line-height:12px; }
+.more_drp_icn{ background-position:-72px -40px; width:8px; height:5px; display:inline-block; margin-right:8px; }
+.active .more_drp_icn{ background-position:-85px -40px; width:8px; height:5px; display:inline-block; margin-right:8px; }
+.airport_message{ background:#fcf8e1; font-size:12px; line-height:20px; color:#2f2f2f; padding-top:2px; padding-bottom:2px; }
+.logo_intl_name{ font-size:11px; line-height:12px; margin-top:2px; padding-right:0px; margin-left:10px; }
+.stop_city_info{ font-size:11px; color:#656565; }
+.mobile_sep_border{ border-top:1px solid #d6d6d6; height:1px; }
+.currency_selection{ margin-top:5px; }
+.all_flt_tabs .underlined_tabs li a{ font-size:12px; color:#2250aa; }
+.all_flt_tabs .underlined_tabs li a.active{ color:#878f9b; }	
+
+.more_mobile_popup .overlay_cases{ background:#fff; }
+.more_mobile_popup .modal-header{ border-bottom:none medium; }
+.more_mobile_popup .overlay_heading{ font-size:14px; line-height:14px; line-height:20px; }
+.more_mobile_popup .modal-body{ padding:5px 0 5px 0; }
+
+p.mobile_row{ padding:6px 0 6px 0; }
+p.mobile_row:hover{ background:#f8f8f8; }
+
+.mobile_intlname{ font-size:12px; color:#878787; line-height:12px; margin-top:8px; }
+.sectnl_mobi_heading{ border-bottom:1px solid #d6d6d6; padding-bottom:8px; }
+
+/*!
+ * Bootstrap v3.0.2
+ *
+ *  Overtride methods depends on the below "Targeted" devices. [1200, 970, 480 etc.]
+*/
+
+/* Large desktop [ Mark: *LG* ] */ 
+@media (min-width:1200px) { 
+.city_info{ margin-bottom:8px; }
+.htl_descrptn{ margin-bottom:20px; }	
+.hotel_price{ padding-top:10px; }
+.per_room{ margin-bottom:8px; }
+
+.grey_scale{
+  filter: url(../filter.svg#grayscale); /* Firefox 3.5+ */
+filter: gray; /* IE6-9 */
+-webkit-filter: grayscale(1); /* Webkit Nightlies & Google Chrome Canary */}
+
+.for_grey .grey_scale{
+filter:none; /* IE6-9 */
+-webkit-filter: grayscale(1); /* Webkit Nightlies & Google Chrome Canary */}
+
+
+}
+
+/* Large desktop [ Mark: *LG* ] */ 
+@media (min-width:1200px) { 
+	.logo_name .hidden-xs.visible-stb{ display:inline-block !important; }
+	.time_info_space{ padding-left:30px; }
+}
+
+/* desktop upto 1024px  [ Mark: *MD* ] */
+@media (min-width:992px) and (max-width:1199px) {
+
+.grey_scale{
+  filter: url(../filter.svg#grayscale); /* Firefox 3.5+ */
+filter: gray; /* IE6-9 */
+-webkit-filter: grayscale(1); /* Webkit Nightlies & Google Chrome Canary */}
+
+.for_grey .grey_scale{
+filter:none; /* IE6-9 */
+-webkit-filter: grayscale(1); /* Webkit Nightlies & Google Chrome Canary */}
+
+.time_info_space{ padding-left:30px; }
+
+}
+
+
+/* Portrait tablet to landscape and desktop [ Mark: *SM* ] */
+@media (min-width:768px) and (max-width:991px) {
+	.logo_name .hidden-xs.visible-stb{ display:inline-block !important; }
+	.time_info_space{ padding-left:30px; }
+}
+
+/* Landscape phone to portrait tablet [ Mark: *XS* ] */
+@media (min-width:480px) and (max-width:599px) {
+	.tar_rating{ width:70px; margin-right:0px; border-right:none medium; padding-right:0px; } 
+	.fare_left_section{ margin-bottom:20px; }
+	.flight_details_strip .flight_dtl_sectors{ font-size:12px; line-height:22px; }
+	.logo_name .hidden-xs.visible-stb{ display:inline-block !important; }
+}
+
+@media (min-width:481px) and (max-width:767px) {
+	.open_icon_markwrapper{ cursor:pointer; }
+	.price_sectn .hidden-xs.visible-stb{ display:block !important;}
+	.logo_name .hidden-xs.visible-stb{ display:inline-block !important; }
+	.intl_time{ font-size:11px; }
+	.intl_time.last{ padding-right:0px; }
+	.logoitnry_section{ margin-bottom:3px; }
+	.baggage_tabdata .penalty_txt{ margin-bottom:10px; }
+    .fare_bottm_brder{ margin-bottom:8px; }
+	.main-div .segmented_btn{ font-size:11px; }
+	.all_flt_tabs .underlined_tabs li a{ font-size:11px; }
+	.fare_calendar_btn{ margin:0px; }
+	.fare_calendar_btn{ padding:5px 2px 4px 3px; font-size:11px; }
+}
+
+@media (min-width:320px) and (max-width:480px) {
+	.price_info{ font-size:13px; line-height:1.2em; }
+	.fare_left_section{ margin-bottom:20px; }
+	.time{ font-size:12px; }
+    .itnry_cityname{ font-size:16px; }
+	.itineary_departure.col-xs-3{ padding-right:0px; }
+	.bottom_label{ font-size:12px; }
+	.itineary_dateinfo{ font-size:13px; line-height:13px; }
+	.refundable_txt{ font-size:9px; line-height:11px; padding:3px 2px; }
+	.main-div .segmented_btn{ font-size:11px; }
+	.open_icon_markwrapper{ cursor:pointer; }
+	.flight_details_strip .flight_dtl_sectors{ font-size:12px; line-height:22px; }
+	.reward_point_mobileStb{ padding-bottom:8px; }
+	.append_bottomSpace6{ margin-bottom:6px; }
+}
+
+@media (max-width:599px) {
+	.logo_name{ line-height:1.4em; font-size:12px; }
+	.flt_number{ font-size:11px; }
+	
+	/*------ Flight name and no. has been added only in case of Mobile -------*/
+	.reward_point_mobileStb{ display:none; }
+	.logo_section{ width:13%; }
+	.logo_section img{ width:22px; }
+	.price_sectn{ width:21%; padding-left:0; padding-right:0; }
+	.flight_name_noMobile{ width:18%; display:block !important;}
+	.time_info_space,.time_info{ width:22%; padding-right:0; }
+	.listing_top{ padding-top:10px; padding-bottom:10px; }
+	.sponsored_list_wrapper .listing_top{ padding:18px 0 10px; }
+	.ot_guarantee_wrapper .listing_top{ padding:25px 0 10px; }
+	/*------ /Flight name and no. has been added only in case of Mobile -------*/
+	
+	.duratn.hidden-xs,.next_icon.hidden-xs,.price_sectn .hidden-xs.visible-stb{ display:none !important; }
+	.airport_message{ font-size:11px; }
+    .deal_txt{ font-size:11px; margin-left:50px; }
+	
+	
+	.flight_details_strip .flight_dtl_sectors{ font-weight:bold;}
+}
+
+@media (min-width:481px) and (max-width:588px) {
+	.flt_number_less600{ display:none !important; }	
+	.logo_name{ line-height:1.4em; font-size:16px; }
+	.logo_section img{ width:28px; }
+}
+
+@media (max-width:370px)
+{
+   .fewleft_icon{ display:none; }
+}	

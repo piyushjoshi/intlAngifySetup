@@ -1,0 +1,26 @@
+<!-- listing rows for desktop/tablet/small-tablet -->
+<link rel="stylesheet" type="text/css" href="css/listing_common.css" />
+<div infinite-scroll="scrollMore()" infinite-scroll-distance="1">
+	<div class="pkj_listing_row" ng-repeat="recGroup in recList | limitTo:currentlyDisplayedRecs">
+		<div ng-controller="recGroupCtrl">
+			<div class="visible-stb hidden-xs">
+				<!-- Listing-Row for single rec -->
+				<div ng-if="isSingleRec" class="clearfix listing_row append_bottom8 sponsored_list_wrapper shadow_genrator_1">
+					<div ng-include src="'/international/raw/templates/listing/singleRecInfoDesktop.html'"></div>
+				</div>
+				<!-- /Listing-Row for single rec -->
+				<!-- Listing-Row with radio buttons-->
+				<div ng-if="!isSingleRec" class="clearfix listing_row append_bottom8  shadow_genrator_1">
+					<div ng-include src="'/international/raw/templates/listing/recInfoWithRadiosDesktop.html'"></div>
+				</div>
+				<!-- /Listing-Row with radio buttons -->
+			</div>
+			<!-- /listing rows for desktop/tablet/small-tablet -->
+			<!-- listing rows for mobile -->
+			<div class="hidden-lg hidden-md hidden-sm hidden-stb">
+				<div ng-include src="'/international/raw/templates/listing/listingRowForMobile.html'"></div>
+			</div>
+			<!-- /listing rows for mobile -->
+		</div>
+	</div>
+</div>

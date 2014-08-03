@@ -1,0 +1,36 @@
+/*---- Sprite sharing classes ----*/
+.flexi_leftarrow,.flexi_rightarrow,.onward_flticon,.return_flticon{ background:url(../images/flexi.png) no-repeat; font-size:0px; }
+
+.legnd_icon{ width:16px; height:16px; display:inline-block; vertical-align:middle; }
+.sel_fare_legnd{ background:#cb3904; }
+.fare_legndTxt{ font-size:11px; color:#878787; }
+.chp_fare_legnd{ background:#6e9f4a; margin-left:15px; }
+
+.flexi_table{ border:solid 1px #d4d4d4; -moz-border-radius:3px; -webkit-border-radius:3px; -o-border-radius:3px; border-radius:3px; }
+.flexi_table > table{ table-layout:fixed; }
+.flexi_table td{ background:#fff; }
+.padd_TB15{ padding:15px 0; }
+.col_Msize{ width:65px; text-align:center; border:solid 1px #ebebeb; line-height:1.3em; }
+.col_Lsize{ width:85px; text-align:center; border:solid 1px #ebebeb; line-height:1.3em; }
+.flexi_table td.bg_gray{ background:#f8f8f8; }
+.flexi_leftarrow{ background-position:0 0; width:11px; height:8px; display:inline-block; vertical-align:middle; margin-right:6px; }
+.flexi_rightarrow{ background-position:0 -10px; width:11px; height:8px; display:inline-block; vertical-align:middle; margin-right:6px; }
+.col_Lsize a{ font-weight:bold; font-size:14px; line-height:2em; }
+.col_Lsize.rght_borderMatch{ border-right:solid 1px #f8f8f8; }
+.col_Lsize.btm_borderMatch{ border-bottom:solid 1px #f8f8f8; }
+.flexi_table td.selected_fare{ background:#cb3904; color:#fff; }
+.flexi_table td.selected_fare a{ color:#fff; }
+.flexi_table span.cheapest_fare{ display:inline-block; color:#fff; background:#5e9435; padding:3px 5px; }
+
+
+.popover_subhead{ font-size:14px; }
+.border_bottom{ border-bottom:solid 1px #e5e5e5; margin-bottom:10px; padding-bottom:10px; }
+.onward_flticon{ background-position:0 -21px; width:25px; height:15px; margin-right:10px; }
+.return_flticon{ background-position:-21px 0; width:25px; height:15px; margin-right:10px; }
+.popover_flt_info{ width:95px; margin-right:10px; }
+.popover_flt_info .popover_time{ font-size:14px;}
+.popover_viewall_flts{ border-top:solid 1px #e5e5e5; padding-top:8px; }
+.popover_viewall_flts a{ font-size:12px; font-weight:normal; line-height:12px; }
+
+.flexi_dateHandler .glyphicon{ font-size:16px; }
+.flexi_dateHandler{ padding:10px 5px; position:absolute; left:-10px; z-index:5; font-size:11px; min-height:60px; }
